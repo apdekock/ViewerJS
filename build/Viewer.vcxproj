@@ -1,0 +1,498 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{E6F0DF5E-011F-3011-9A7B-05EEF05ADEEC}</ProjectGUID>
+    <WindowsTargetPlatformVersion>10.0.10240.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>Viewer</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\ViewerJS\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/git/ViewerJS/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/git/ViewerJS -BC:/git/ViewerJS/build --check-stamp-file C:\git\ViewerJS\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/ViewerJS/CMakeLists.txt;C:\git\ViewerJS\CMakeLists.txt;C:\git\ViewerJS\build\CMakeFiles\3.6.0-rc3\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;C:\git\ViewerJS\build\CMakeFiles\3.6.0-rc3\CMakeCCompiler.cmake;C:\git\ViewerJS\build\CMakeFiles\3.6.0-rc3\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\git\ViewerJS\build\CMakeFiles\3.6.0-rc3\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindJava.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeFindJavaCommon.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\ExternalProject-download.cmake.in;C:\git\ViewerJS\build\ClosureCompiler-prefix\tmp\ClosureCompiler-cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\RepositoryInfo.txt.in;C:\git\ViewerJS\build\WebODF-prefix\tmp\WebODF-cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\RepositoryInfo.txt.in;C:\git\ViewerJS\build\PDFjs-prefix\tmp\PDFjs-cfgcmd.txt.in;C:\git\ViewerJS\viewerjsversion.js.in;C:\git\ViewerJS\pdfjsversion.js.in;C:\git\ViewerJS\viewerjs-plugin.php.in;C:\git\ViewerJS\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\ViewerJS\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/git/ViewerJS/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/git/ViewerJS -BC:/git/ViewerJS/build --check-stamp-file C:\git\ViewerJS\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/ViewerJS/CMakeLists.txt;C:\git\ViewerJS\CMakeLists.txt;C:\git\ViewerJS\build\CMakeFiles\3.6.0-rc3\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;C:\git\ViewerJS\build\CMakeFiles\3.6.0-rc3\CMakeCCompiler.cmake;C:\git\ViewerJS\build\CMakeFiles\3.6.0-rc3\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\git\ViewerJS\build\CMakeFiles\3.6.0-rc3\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindJava.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeFindJavaCommon.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\ExternalProject-download.cmake.in;C:\git\ViewerJS\build\ClosureCompiler-prefix\tmp\ClosureCompiler-cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\RepositoryInfo.txt.in;C:\git\ViewerJS\build\WebODF-prefix\tmp\WebODF-cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\RepositoryInfo.txt.in;C:\git\ViewerJS\build\PDFjs-prefix\tmp\PDFjs-cfgcmd.txt.in;C:\git\ViewerJS\viewerjsversion.js.in;C:\git\ViewerJS\pdfjsversion.js.in;C:\git\ViewerJS\viewerjs-plugin.php.in;C:\git\ViewerJS\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\ViewerJS\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/git/ViewerJS/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/git/ViewerJS -BC:/git/ViewerJS/build --check-stamp-file C:\git\ViewerJS\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/ViewerJS/CMakeLists.txt;C:\git\ViewerJS\CMakeLists.txt;C:\git\ViewerJS\build\CMakeFiles\3.6.0-rc3\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;C:\git\ViewerJS\build\CMakeFiles\3.6.0-rc3\CMakeCCompiler.cmake;C:\git\ViewerJS\build\CMakeFiles\3.6.0-rc3\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\git\ViewerJS\build\CMakeFiles\3.6.0-rc3\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindJava.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeFindJavaCommon.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\ExternalProject-download.cmake.in;C:\git\ViewerJS\build\ClosureCompiler-prefix\tmp\ClosureCompiler-cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\RepositoryInfo.txt.in;C:\git\ViewerJS\build\WebODF-prefix\tmp\WebODF-cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\RepositoryInfo.txt.in;C:\git\ViewerJS\build\PDFjs-prefix\tmp\PDFjs-cfgcmd.txt.in;C:\git\ViewerJS\viewerjsversion.js.in;C:\git\ViewerJS\pdfjsversion.js.in;C:\git\ViewerJS\viewerjs-plugin.php.in;C:\git\ViewerJS\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\ViewerJS\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/git/ViewerJS/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/git/ViewerJS -BC:/git/ViewerJS/build --check-stamp-file C:\git\ViewerJS\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/ViewerJS/CMakeLists.txt;C:\git\ViewerJS\CMakeLists.txt;C:\git\ViewerJS\build\CMakeFiles\3.6.0-rc3\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;C:\git\ViewerJS\build\CMakeFiles\3.6.0-rc3\CMakeCCompiler.cmake;C:\git\ViewerJS\build\CMakeFiles\3.6.0-rc3\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\git\ViewerJS\build\CMakeFiles\3.6.0-rc3\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindJava.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeFindJavaCommon.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\ExternalProject-download.cmake.in;C:\git\ViewerJS\build\ClosureCompiler-prefix\tmp\ClosureCompiler-cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\RepositoryInfo.txt.in;C:\git\ViewerJS\build\WebODF-prefix\tmp\WebODF-cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\RepositoryInfo.txt.in;C:\git\ViewerJS\build\PDFjs-prefix\tmp\PDFjs-cfgcmd.txt.in;C:\git\ViewerJS\viewerjsversion.js.in;C:\git\ViewerJS\pdfjsversion.js.in;C:\git\ViewerJS\viewerjs-plugin.php.in;C:\git\ViewerJS\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\ViewerJS\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\ViewerJS\build\CMakeFiles\45921d5405818ae3a5179de2c4502e36\index.html.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating index.html</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+node C:/git/ViewerJS/build/WebODF-source/webodf/lib/runtime.js C:/git/ViewerJS/tools/replaceByFileContents.js C:/git/ViewerJS/index-template.html C:/git/ViewerJS/build/index.html @VIEWERJSLICENSE_START@ @VIEWERJSLICENSE_END@ C:/git/ViewerJS/HeaderCompiled.html @VIEWERJS_START@ @VIEWERJS_END@ C:/git/ViewerJS/build/viewer.min.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/ViewerJS/build/CMakeFiles/45921d5405818ae3a5179de2c4502e36/index.html.rule;C:\git\ViewerJS\tools\replaceByFileContents.js;C:\git\ViewerJS\HeaderCompiled.html;C:\git\ViewerJS\index-template.html;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\ViewerJS\build\index.html</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating index.html</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+node C:/git/ViewerJS/build/WebODF-source/webodf/lib/runtime.js C:/git/ViewerJS/tools/replaceByFileContents.js C:/git/ViewerJS/index-template.html C:/git/ViewerJS/build/index.html @VIEWERJSLICENSE_START@ @VIEWERJSLICENSE_END@ C:/git/ViewerJS/HeaderCompiled.html @VIEWERJS_START@ @VIEWERJS_END@ C:/git/ViewerJS/build/viewer.min.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/ViewerJS/build/CMakeFiles/45921d5405818ae3a5179de2c4502e36/index.html.rule;C:\git\ViewerJS\tools\replaceByFileContents.js;C:\git\ViewerJS\HeaderCompiled.html;C:\git\ViewerJS\index-template.html;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\ViewerJS\build\index.html</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating index.html</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+node C:/git/ViewerJS/build/WebODF-source/webodf/lib/runtime.js C:/git/ViewerJS/tools/replaceByFileContents.js C:/git/ViewerJS/index-template.html C:/git/ViewerJS/build/index.html @VIEWERJSLICENSE_START@ @VIEWERJSLICENSE_END@ C:/git/ViewerJS/HeaderCompiled.html @VIEWERJS_START@ @VIEWERJS_END@ C:/git/ViewerJS/build/viewer.min.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/ViewerJS/build/CMakeFiles/45921d5405818ae3a5179de2c4502e36/index.html.rule;C:\git\ViewerJS\tools\replaceByFileContents.js;C:\git\ViewerJS\HeaderCompiled.html;C:\git\ViewerJS\index-template.html;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\ViewerJS\build\index.html</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating index.html</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+node C:/git/ViewerJS/build/WebODF-source/webodf/lib/runtime.js C:/git/ViewerJS/tools/replaceByFileContents.js C:/git/ViewerJS/index-template.html C:/git/ViewerJS/build/index.html @VIEWERJSLICENSE_START@ @VIEWERJSLICENSE_END@ C:/git/ViewerJS/HeaderCompiled.html @VIEWERJS_START@ @VIEWERJS_END@ C:/git/ViewerJS/build/viewer.min.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/ViewerJS/build/CMakeFiles/45921d5405818ae3a5179de2c4502e36/index.html.rule;C:\git\ViewerJS\tools\replaceByFileContents.js;C:\git\ViewerJS\HeaderCompiled.html;C:\git\ViewerJS\index-template.html;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\ViewerJS\build\index.html</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\ViewerJS\build\CMakeFiles\9dc8a605691eba85864d082e1e483cf1\ViewerJS.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating ViewerJS directory</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E remove_directory C:/git/ViewerJS/build/viewerjs-0.5.9
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/git/ViewerJS/build/viewerjs-0.5.9
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/AGPL-3.0.txt C:/git/ViewerJS/build/viewerjs-0.5.9/AGPL-3.0.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/git/ViewerJS/images C:/git/ViewerJS/build/viewerjs-0.5.9/ViewerJS/images
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/index.html C:/git/ViewerJS/build/viewerjs-0.5.9/ViewerJS/index.html
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/example.local.css C:/git/ViewerJS/build/viewerjs-0.5.9/ViewerJS/example.local.css
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/webodf.js-0.5.9/webodf.js C:/git/ViewerJS/build/viewerjs-0.5.9/ViewerJS
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/pdfjsversion.js C:/git/ViewerJS/build/viewerjs-0.5.9/ViewerJS/pdfjsversion.js
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/PDFJS-source/build/pdf.js C:/git/ViewerJS/build/viewerjs-0.5.9/ViewerJS/pdf.js
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/PDFJS-source/build/pdf.worker.js C:/git/ViewerJS/build/viewerjs-0.5.9/ViewerJS/pdf.worker.js
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/PDFJS-source/web/compatibility.js C:/git/ViewerJS/build/viewerjs-0.5.9/ViewerJS/compatibility.js
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/PDFJS-source/web/ui_utils.js C:/git/ViewerJS/build/viewerjs-0.5.9/ViewerJS/ui_utils.js
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/PDFJS-source/web/text_layer_builder.js C:/git/ViewerJS/build/viewerjs-0.5.9/ViewerJS/text_layer_builder.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/ViewerJS/build/CMakeFiles/9dc8a605691eba85864d082e1e483cf1/ViewerJS.rule;C:\git\ViewerJS\images\texture.png;C:\git\ViewerJS\images\toolbarButton-download.png;C:\git\ViewerJS\images\toolbarButton-fullscreen.png;C:\git\ViewerJS\images\toolbarButton-menuArrows.png;C:\git\ViewerJS\images\toolbarButton-pageDown.png;C:\git\ViewerJS\images\toolbarButton-pageUp.png;C:\git\ViewerJS\images\toolbarButton-zoomIn.png;C:\git\ViewerJS\images\toolbarButton-zoomOut.png;C:\git\ViewerJS\images\nlnet.png;C:\git\ViewerJS\images\kogmbh.png;C:\git\ViewerJS\index.html;C:\git\ViewerJS\example.local.css;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\ViewerJS\build\viewerjs-0.5.9\ViewerJS</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Creating ViewerJS directory</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E remove_directory C:/git/ViewerJS/build/viewerjs-0.5.9
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/git/ViewerJS/build/viewerjs-0.5.9
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/AGPL-3.0.txt C:/git/ViewerJS/build/viewerjs-0.5.9/AGPL-3.0.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/git/ViewerJS/images C:/git/ViewerJS/build/viewerjs-0.5.9/ViewerJS/images
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/index.html C:/git/ViewerJS/build/viewerjs-0.5.9/ViewerJS/index.html
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/example.local.css C:/git/ViewerJS/build/viewerjs-0.5.9/ViewerJS/example.local.css
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/webodf.js-0.5.9/webodf.js C:/git/ViewerJS/build/viewerjs-0.5.9/ViewerJS
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/pdfjsversion.js C:/git/ViewerJS/build/viewerjs-0.5.9/ViewerJS/pdfjsversion.js
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/PDFJS-source/build/pdf.js C:/git/ViewerJS/build/viewerjs-0.5.9/ViewerJS/pdf.js
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/PDFJS-source/build/pdf.worker.js C:/git/ViewerJS/build/viewerjs-0.5.9/ViewerJS/pdf.worker.js
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/PDFJS-source/web/compatibility.js C:/git/ViewerJS/build/viewerjs-0.5.9/ViewerJS/compatibility.js
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/PDFJS-source/web/ui_utils.js C:/git/ViewerJS/build/viewerjs-0.5.9/ViewerJS/ui_utils.js
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/PDFJS-source/web/text_layer_builder.js C:/git/ViewerJS/build/viewerjs-0.5.9/ViewerJS/text_layer_builder.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/ViewerJS/build/CMakeFiles/9dc8a605691eba85864d082e1e483cf1/ViewerJS.rule;C:\git\ViewerJS\images\texture.png;C:\git\ViewerJS\images\toolbarButton-download.png;C:\git\ViewerJS\images\toolbarButton-fullscreen.png;C:\git\ViewerJS\images\toolbarButton-menuArrows.png;C:\git\ViewerJS\images\toolbarButton-pageDown.png;C:\git\ViewerJS\images\toolbarButton-pageUp.png;C:\git\ViewerJS\images\toolbarButton-zoomIn.png;C:\git\ViewerJS\images\toolbarButton-zoomOut.png;C:\git\ViewerJS\images\nlnet.png;C:\git\ViewerJS\images\kogmbh.png;C:\git\ViewerJS\index.html;C:\git\ViewerJS\example.local.css;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\ViewerJS\build\viewerjs-0.5.9\ViewerJS</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Creating ViewerJS directory</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E remove_directory C:/git/ViewerJS/build/viewerjs-0.5.9
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/git/ViewerJS/build/viewerjs-0.5.9
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/AGPL-3.0.txt C:/git/ViewerJS/build/viewerjs-0.5.9/AGPL-3.0.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/git/ViewerJS/images C:/git/ViewerJS/build/viewerjs-0.5.9/ViewerJS/images
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/index.html C:/git/ViewerJS/build/viewerjs-0.5.9/ViewerJS/index.html
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/example.local.css C:/git/ViewerJS/build/viewerjs-0.5.9/ViewerJS/example.local.css
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/webodf.js-0.5.9/webodf.js C:/git/ViewerJS/build/viewerjs-0.5.9/ViewerJS
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/pdfjsversion.js C:/git/ViewerJS/build/viewerjs-0.5.9/ViewerJS/pdfjsversion.js
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/PDFJS-source/build/pdf.js C:/git/ViewerJS/build/viewerjs-0.5.9/ViewerJS/pdf.js
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/PDFJS-source/build/pdf.worker.js C:/git/ViewerJS/build/viewerjs-0.5.9/ViewerJS/pdf.worker.js
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/PDFJS-source/web/compatibility.js C:/git/ViewerJS/build/viewerjs-0.5.9/ViewerJS/compatibility.js
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/PDFJS-source/web/ui_utils.js C:/git/ViewerJS/build/viewerjs-0.5.9/ViewerJS/ui_utils.js
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/PDFJS-source/web/text_layer_builder.js C:/git/ViewerJS/build/viewerjs-0.5.9/ViewerJS/text_layer_builder.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/ViewerJS/build/CMakeFiles/9dc8a605691eba85864d082e1e483cf1/ViewerJS.rule;C:\git\ViewerJS\images\texture.png;C:\git\ViewerJS\images\toolbarButton-download.png;C:\git\ViewerJS\images\toolbarButton-fullscreen.png;C:\git\ViewerJS\images\toolbarButton-menuArrows.png;C:\git\ViewerJS\images\toolbarButton-pageDown.png;C:\git\ViewerJS\images\toolbarButton-pageUp.png;C:\git\ViewerJS\images\toolbarButton-zoomIn.png;C:\git\ViewerJS\images\toolbarButton-zoomOut.png;C:\git\ViewerJS\images\nlnet.png;C:\git\ViewerJS\images\kogmbh.png;C:\git\ViewerJS\index.html;C:\git\ViewerJS\example.local.css;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\ViewerJS\build\viewerjs-0.5.9\ViewerJS</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Creating ViewerJS directory</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E remove_directory C:/git/ViewerJS/build/viewerjs-0.5.9
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/git/ViewerJS/build/viewerjs-0.5.9
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/AGPL-3.0.txt C:/git/ViewerJS/build/viewerjs-0.5.9/AGPL-3.0.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/git/ViewerJS/images C:/git/ViewerJS/build/viewerjs-0.5.9/ViewerJS/images
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/index.html C:/git/ViewerJS/build/viewerjs-0.5.9/ViewerJS/index.html
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/example.local.css C:/git/ViewerJS/build/viewerjs-0.5.9/ViewerJS/example.local.css
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/webodf.js-0.5.9/webodf.js C:/git/ViewerJS/build/viewerjs-0.5.9/ViewerJS
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/pdfjsversion.js C:/git/ViewerJS/build/viewerjs-0.5.9/ViewerJS/pdfjsversion.js
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/PDFJS-source/build/pdf.js C:/git/ViewerJS/build/viewerjs-0.5.9/ViewerJS/pdf.js
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/PDFJS-source/build/pdf.worker.js C:/git/ViewerJS/build/viewerjs-0.5.9/ViewerJS/pdf.worker.js
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/PDFJS-source/web/compatibility.js C:/git/ViewerJS/build/viewerjs-0.5.9/ViewerJS/compatibility.js
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/PDFJS-source/web/ui_utils.js C:/git/ViewerJS/build/viewerjs-0.5.9/ViewerJS/ui_utils.js
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/PDFJS-source/web/text_layer_builder.js C:/git/ViewerJS/build/viewerjs-0.5.9/ViewerJS/text_layer_builder.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/ViewerJS/build/CMakeFiles/9dc8a605691eba85864d082e1e483cf1/ViewerJS.rule;C:\git\ViewerJS\images\texture.png;C:\git\ViewerJS\images\toolbarButton-download.png;C:\git\ViewerJS\images\toolbarButton-fullscreen.png;C:\git\ViewerJS\images\toolbarButton-menuArrows.png;C:\git\ViewerJS\images\toolbarButton-pageDown.png;C:\git\ViewerJS\images\toolbarButton-pageUp.png;C:\git\ViewerJS\images\toolbarButton-zoomIn.png;C:\git\ViewerJS\images\toolbarButton-zoomOut.png;C:\git\ViewerJS\images\nlnet.png;C:\git\ViewerJS\images\kogmbh.png;C:\git\ViewerJS\index.html;C:\git\ViewerJS\example.local.css;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\ViewerJS\build\viewerjs-0.5.9\ViewerJS</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\ViewerJS\build\CMakeFiles\45921d5405818ae3a5179de2c4502e36\viewerjs-0.5.9.zip.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating viewerjs-0.5.9.zip</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+node C:/git/ViewerJS/build/WebODF-source/webodf/lib/runtime.js C:/git/ViewerJS/build/WebODF-source/webodf/tools/zipdir.js C:/git/ViewerJS/build/viewerjs-0.5.9 C:/git/ViewerJS/build/viewerjs-0.5.9.zip
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/ViewerJS/build/CMakeFiles/45921d5405818ae3a5179de2c4502e36/viewerjs-0.5.9.zip.rule;C:\git\ViewerJS\build\viewerjs-0.5.9\ViewerJS;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\ViewerJS\build\viewerjs-0.5.9.zip</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Creating viewerjs-0.5.9.zip</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+node C:/git/ViewerJS/build/WebODF-source/webodf/lib/runtime.js C:/git/ViewerJS/build/WebODF-source/webodf/tools/zipdir.js C:/git/ViewerJS/build/viewerjs-0.5.9 C:/git/ViewerJS/build/viewerjs-0.5.9.zip
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/ViewerJS/build/CMakeFiles/45921d5405818ae3a5179de2c4502e36/viewerjs-0.5.9.zip.rule;C:\git\ViewerJS\build\viewerjs-0.5.9\ViewerJS;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\ViewerJS\build\viewerjs-0.5.9.zip</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Creating viewerjs-0.5.9.zip</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+node C:/git/ViewerJS/build/WebODF-source/webodf/lib/runtime.js C:/git/ViewerJS/build/WebODF-source/webodf/tools/zipdir.js C:/git/ViewerJS/build/viewerjs-0.5.9 C:/git/ViewerJS/build/viewerjs-0.5.9.zip
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/ViewerJS/build/CMakeFiles/45921d5405818ae3a5179de2c4502e36/viewerjs-0.5.9.zip.rule;C:\git\ViewerJS\build\viewerjs-0.5.9\ViewerJS;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\ViewerJS\build\viewerjs-0.5.9.zip</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Creating viewerjs-0.5.9.zip</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+node C:/git/ViewerJS/build/WebODF-source/webodf/lib/runtime.js C:/git/ViewerJS/build/WebODF-source/webodf/tools/zipdir.js C:/git/ViewerJS/build/viewerjs-0.5.9 C:/git/ViewerJS/build/viewerjs-0.5.9.zip
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/ViewerJS/build/CMakeFiles/45921d5405818ae3a5179de2c4502e36/viewerjs-0.5.9.zip.rule;C:\git\ViewerJS\build\viewerjs-0.5.9\ViewerJS;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\ViewerJS\build\viewerjs-0.5.9.zip</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\ViewerJS\build\CMakeFiles\a3ffdeebbdacf4d824328d0c3686d394\Viewer.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/ViewerJS/build/CMakeFiles/a3ffdeebbdacf4d824328d0c3686d394/Viewer.rule;C:\git\ViewerJS\build\viewerjs-0.5.9.zip;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\ViewerJS\build\CMakeFiles\Viewer</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/ViewerJS/build/CMakeFiles/a3ffdeebbdacf4d824328d0c3686d394/Viewer.rule;C:\git\ViewerJS\build\viewerjs-0.5.9.zip;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\ViewerJS\build\CMakeFiles\Viewer</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/ViewerJS/build/CMakeFiles/a3ffdeebbdacf4d824328d0c3686d394/Viewer.rule;C:\git\ViewerJS\build\viewerjs-0.5.9.zip;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\ViewerJS\build\CMakeFiles\Viewer</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/ViewerJS/build/CMakeFiles/a3ffdeebbdacf4d824328d0c3686d394/Viewer.rule;C:\git\ViewerJS\build\viewerjs-0.5.9.zip;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\ViewerJS\build\CMakeFiles\Viewer</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\git\ViewerJS\build\CMakeFiles\Viewer" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/git/ViewerJS/build/ZERO_CHECK.vcxproj">
+      <Project>074DFBFD-7261-391D-A6B0-796D1C2C5460</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/git/ViewerJS/build/PDFjs.vcxproj">
+      <Project>8146D65A-6E9F-3F0A-879E-1F19A8AA4CCE</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/git/ViewerJS/build/WebODF.vcxproj">
+      <Project>967F6253-4882-3F80-B0C4-9E3882BF041F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/git/ViewerJS/build/index.html-target.vcxproj">
+      <Project>198AA2FF-5BBF-3E1D-A049-0F3CA93F5B45</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/git/ViewerJS/build/viewer.min.js-target.vcxproj">
+      <Project>53B935D9-6496-3D41-B777-41DFFBE49BCA</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

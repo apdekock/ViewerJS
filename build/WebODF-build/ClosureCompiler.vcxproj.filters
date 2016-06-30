@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-source\CMakeLists.txt" />
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\9e55bdd1091daa73d6834c573278e8ac\ClosureCompiler-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\9e55bdd1091daa73d6834c573278e8ac\ClosureCompiler-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\9e55bdd1091daa73d6834c573278e8ac\ClosureCompiler-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\9e55bdd1091daa73d6834c573278e8ac\ClosureCompiler-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\9e55bdd1091daa73d6834c573278e8ac\ClosureCompiler-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\9e55bdd1091daa73d6834c573278e8ac\ClosureCompiler-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\9e55bdd1091daa73d6834c573278e8ac\ClosureCompiler-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\d53e39f17fdea395a6158c0a152f0e36\ClosureCompiler-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\a98734ba1dce4484a42e8f9148c73336\ClosureCompiler.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\ClosureCompiler" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B4407E5E-8F4E-3A2D-953F-18D81106D45D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

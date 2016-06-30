@@ -1,0 +1,55 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "C:/git/ViewerJS/build/CMakeFiles/WebODF"
+		},
+		
+		{
+			"file" : "C:/git/ViewerJS/CMakeLists.txt"
+		},
+		
+		{
+			"file" : "C:/git/ViewerJS/build/CMakeFiles/a3ffdeebbdacf4d824328d0c3686d394/WebODF.rule"
+		},
+		
+		{
+			"file" : "C:/git/ViewerJS/build/CMakeFiles/0f77f53cfc99da81619a12d549fbcb48/WebODF-complete.rule"
+		},
+		
+		{
+			"file" : "C:/git/ViewerJS/build/CMakeFiles/b13cecad98d0f7662be7e0fa6300b83f/WebODF-install.rule"
+		},
+		
+		{
+			"file" : "C:/git/ViewerJS/build/CMakeFiles/b13cecad98d0f7662be7e0fa6300b83f/WebODF-mkdir.rule"
+		},
+		
+		{
+			"file" : "C:/git/ViewerJS/build/CMakeFiles/b13cecad98d0f7662be7e0fa6300b83f/WebODF-download.rule"
+		},
+		
+		{
+			"file" : "C:/git/ViewerJS/build/CMakeFiles/b13cecad98d0f7662be7e0fa6300b83f/WebODF-update.rule"
+		},
+		
+		{
+			"file" : "C:/git/ViewerJS/build/CMakeFiles/b13cecad98d0f7662be7e0fa6300b83f/WebODF-patch.rule"
+		},
+		
+		{
+			"file" : "C:/git/ViewerJS/build/CMakeFiles/b13cecad98d0f7662be7e0fa6300b83f/WebODF-configure.rule"
+		},
+		
+		{
+			"file" : "C:/git/ViewerJS/build/CMakeFiles/b13cecad98d0f7662be7e0fa6300b83f/WebODF-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "WebODF" ],
+		"name" : "WebODF"
+	}
+}

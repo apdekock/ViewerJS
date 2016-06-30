@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-source\programs\editor\CMakeLists.txt" />
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\0af0dce16f8f04680902af109c8ffb35\dojo-amalgamation.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\642422e62af0ce9d20af5c102925168a\wodocollabtexteditor.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\b38123e41bfe589181dd2accc20d87e4\SessionListView.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\b38123e41bfe589181dd2accc20d87e4\MemberListView.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\b38123e41bfe589181dd2accc20d87e4\wodocollabpane.css.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\b38123e41bfe589181dd2accc20d87e4\wodocollabtexteditor.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\b38123e41bfe589181dd2accc20d87e4\Tools.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\b38123e41bfe589181dd2accc20d87e4\avatar-joe.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\b38123e41bfe589181dd2accc20d87e4\EditorSession.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\b38123e41bfe589181dd2accc20d87e4\Translator.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\b38123e41bfe589181dd2accc20d87e4\FullWindowZoomHelper.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\b38123e41bfe589181dd2accc20d87e4\wodotexteditor.css.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\f47ebef86afaf6a62cd1d3bc06af5c85\wodocollabtexteditorbuilddir-target.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\git\ViewerJS\build\WebODF-build\programs\editor\CMakeFiles\wodocollabtexteditorbuilddir-target" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B4407E5E-8F4E-3A2D-953F-18D81106D45D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

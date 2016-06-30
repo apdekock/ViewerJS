@@ -1,0 +1,91 @@
+﻿  Building Custom Rule C:/git/ViewerJS/CMakeLists.txt
+  CMake does not need to re-run because C:\git\ViewerJS\build\CMakeFiles\generate.stamp is up-to-date.
+  Creating directories for 'WebODF'
+  Performing download step (git clone) for 'WebODF'
+  -- Avoiding repeated git clone, stamp file is up to date: 'C:/git/ViewerJS/build/WebODF-prefix/src/WebODF-stamp/WebODF-gitclone-lastrun.txt'
+  No update step for 'WebODF'
+  No patch step for 'WebODF'
+  Performing configure step for 'WebODF'
+  -- WebODF version 0.5.9-dirty
+  CMake Warning at CMakeLists.txt:61 (find_package):
+    By not providing "FindQt5Network.cmake" in CMAKE_MODULE_PATH this project
+    has asked CMake to find a package configuration file provided by
+    "Qt5Network", but CMake did not find one.
+  
+    Could not find a package configuration file provided by "Qt5Network" with
+    any of the following names:
+  
+      Qt5NetworkConfig.cmake
+      qt5network-config.cmake
+  
+    Add the installation prefix of "Qt5Network" to CMAKE_PREFIX_PATH or set
+    "Qt5Network_DIR" to a directory containing one of the above files.  If
+    "Qt5Network" provides a separate development package or SDK, be sure it has
+    been installed.
+  
+  
+  CMake Warning at CMakeLists.txt:62 (find_package):
+    By not providing "FindQt5Xml.cmake" in CMAKE_MODULE_PATH this project has
+    asked CMake to find a package configuration file provided by "Qt5Xml", but
+    CMake did not find one.
+  
+    Could not find a package configuration file provided by "Qt5Xml" with any
+    of the following names:
+  
+      Qt5XmlConfig.cmake
+      qt5xml-config.cmake
+  
+    Add the installation prefix of "Qt5Xml" to CMAKE_PREFIX_PATH or set
+    "Qt5Xml_DIR" to a directory containing one of the above files.  If "Qt5Xml"
+    provides a separate development package or SDK, be sure it has been
+    installed.
+  
+  
+  CMake Warning at CMakeLists.txt:63 (find_package):
+    By not providing "FindQt5PrintSupport.cmake" in CMAKE_MODULE_PATH this
+    project has asked CMake to find a package configuration file provided by
+    "Qt5PrintSupport", but CMake did not find one.
+  
+    Could not find a package configuration file provided by "Qt5PrintSupport"
+    with any of the following names:
+  
+      Qt5PrintSupportConfig.cmake
+      qt5printsupport-config.cmake
+  
+    Add the installation prefix of "Qt5PrintSupport" to CMAKE_PREFIX_PATH or
+    set "Qt5PrintSupport_DIR" to a directory containing one of the above files.
+    If "Qt5PrintSupport" provides a separate development package or SDK, be
+    sure it has been installed.
+  
+  
+  CMake Warning at CMakeLists.txt:64 (find_package):
+    By not providing "FindQt5WebKitWidgets.cmake" in CMAKE_MODULE_PATH this
+    project has asked CMake to find a package configuration file provided by
+    "Qt5WebKitWidgets", but CMake did not find one.
+  
+    Could not find a package configuration file provided by "Qt5WebKitWidgets"
+    with any of the following names:
+  
+      Qt5WebKitWidgetsConfig.cmake
+      qt5webkitwidgets-config.cmake
+  
+    Add the installation prefix of "Qt5WebKitWidgets" to CMAKE_PREFIX_PATH or
+    set "Qt5WebKitWidgets_DIR" to a directory containing one of the above
+    files.  If "Qt5WebKitWidgets" provides a separate development package or
+    SDK, be sure it has been installed.
+  
+  
+  CMake Warning at CMakeLists.txt:69 (message):
+    Qt5 with modules Qt5Network Qt5Xmle Qt5PrintSupport Qt5WebKitWidgets was
+    not found.  qtjsruntime will no be built.
+  
+  
+  -- external downloads will be stored/expected in: C:/git/ViewerJS/build/WebODF-build/downloads
+  -- Android was not found: APK will not be built.
+  No license was found for ..\programs\editor\FileSaver.js
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: C:/git/ViewerJS/build/WebODF-build
+  No build step for 'WebODF'
+  No install step for 'WebODF'
+  Completed 'WebODF'

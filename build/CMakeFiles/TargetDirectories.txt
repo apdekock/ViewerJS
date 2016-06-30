@@ -1,0 +1,13 @@
+C:/git/ViewerJS/build/CMakeFiles/ClosureCompiler.dir
+C:/git/ViewerJS/build/CMakeFiles/PDFViewerPlugin.css.js-target.dir
+C:/git/ViewerJS/build/CMakeFiles/WebODF.dir
+C:/git/ViewerJS/build/CMakeFiles/index.html-target.dir
+C:/git/ViewerJS/build/CMakeFiles/PDFjs.dir
+C:/git/ViewerJS/build/CMakeFiles/viewer.css.js-target.dir
+C:/git/ViewerJS/build/CMakeFiles/viewerTouch.css.js-target.dir
+C:/git/ViewerJS/build/CMakeFiles/ODFViewerPlugin.css.js-target.dir
+C:/git/ViewerJS/build/CMakeFiles/viewer.min.js-target.dir
+C:/git/ViewerJS/build/CMakeFiles/wordpress-plugin.dir
+C:/git/ViewerJS/build/CMakeFiles/Viewer.dir
+C:/git/ViewerJS/build/CMakeFiles/ALL_BUILD.dir
+C:/git/ViewerJS/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,55 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "C:/git/ViewerJS/build/CMakeFiles/ClosureCompiler"
+		},
+		
+		{
+			"file" : "C:/git/ViewerJS/CMakeLists.txt"
+		},
+		
+		{
+			"file" : "C:/git/ViewerJS/build/CMakeFiles/a3ffdeebbdacf4d824328d0c3686d394/ClosureCompiler.rule"
+		},
+		
+		{
+			"file" : "C:/git/ViewerJS/build/CMakeFiles/0f77f53cfc99da81619a12d549fbcb48/ClosureCompiler-complete.rule"
+		},
+		
+		{
+			"file" : "C:/git/ViewerJS/build/CMakeFiles/02a8a757a04d8c29e9cd00a69b5b9054/ClosureCompiler-install.rule"
+		},
+		
+		{
+			"file" : "C:/git/ViewerJS/build/CMakeFiles/02a8a757a04d8c29e9cd00a69b5b9054/ClosureCompiler-mkdir.rule"
+		},
+		
+		{
+			"file" : "C:/git/ViewerJS/build/CMakeFiles/02a8a757a04d8c29e9cd00a69b5b9054/ClosureCompiler-download.rule"
+		},
+		
+		{
+			"file" : "C:/git/ViewerJS/build/CMakeFiles/02a8a757a04d8c29e9cd00a69b5b9054/ClosureCompiler-update.rule"
+		},
+		
+		{
+			"file" : "C:/git/ViewerJS/build/CMakeFiles/02a8a757a04d8c29e9cd00a69b5b9054/ClosureCompiler-patch.rule"
+		},
+		
+		{
+			"file" : "C:/git/ViewerJS/build/CMakeFiles/02a8a757a04d8c29e9cd00a69b5b9054/ClosureCompiler-configure.rule"
+		},
+		
+		{
+			"file" : "C:/git/ViewerJS/build/CMakeFiles/02a8a757a04d8c29e9cd00a69b5b9054/ClosureCompiler-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "ClosureCompiler" ],
+		"name" : "ClosureCompiler"
+	}
+}

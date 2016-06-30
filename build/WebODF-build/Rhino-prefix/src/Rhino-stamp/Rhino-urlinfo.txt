@@ -1,0 +1,3 @@
+repository='external project URL'
+module='http://ftp.mozilla.org/pub/js/rhino1_7R3.zip'
+tag='MD5=99d94103662a8d0b571e247a77432ac5'

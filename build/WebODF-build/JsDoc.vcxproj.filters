@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-source\CMakeLists.txt" />
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\02b89fe1caf86ab9594a1578ba0b3c78\JsDoc-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\02b89fe1caf86ab9594a1578ba0b3c78\JsDoc-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\02b89fe1caf86ab9594a1578ba0b3c78\JsDoc-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\02b89fe1caf86ab9594a1578ba0b3c78\JsDoc-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\02b89fe1caf86ab9594a1578ba0b3c78\JsDoc-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\02b89fe1caf86ab9594a1578ba0b3c78\JsDoc-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\02b89fe1caf86ab9594a1578ba0b3c78\JsDoc-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\d53e39f17fdea395a6158c0a152f0e36\JsDoc-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\a98734ba1dce4484a42e8f9148c73336\JsDoc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\JsDoc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B4407E5E-8F4E-3A2D-953F-18D81106D45D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

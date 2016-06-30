@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{8F6B7C29-44C0-3818-B236-00DDF4886B94}</ProjectGUID>
+    <WindowsTargetPlatformVersion>10.0.10240.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>simplenodetest</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-source\webodf\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/git/ViewerJS/build/WebODF-source/webodf/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/git/ViewerJS/build/WebODF-source -BC:/git/ViewerJS/build/WebODF-build --check-stamp-file C:\git\ViewerJS\build\WebODF-build\webodf\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/ViewerJS/build/WebODF-source/webodf/CMakeLists.txt;C:\git\ViewerJS\build\WebODF-source\webodf\CMakeLists.txt;C:\git\ViewerJS\build\WebODF-source\webodf\jsfileslist.txt.in;C:\git\ViewerJS\build\WebODF-build\webodf\jsfileslist.txt;C:\git\ViewerJS\build\WebODF-source\webodf\webodfversion.js.in;C:\git\ViewerJS\build\WebODF-source\webodf\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\ViewerJS\build\WebODF-build\webodf\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/git/ViewerJS/build/WebODF-source/webodf/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/git/ViewerJS/build/WebODF-source -BC:/git/ViewerJS/build/WebODF-build --check-stamp-file C:\git\ViewerJS\build\WebODF-build\webodf\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/ViewerJS/build/WebODF-source/webodf/CMakeLists.txt;C:\git\ViewerJS\build\WebODF-source\webodf\CMakeLists.txt;C:\git\ViewerJS\build\WebODF-source\webodf\jsfileslist.txt.in;C:\git\ViewerJS\build\WebODF-build\webodf\jsfileslist.txt;C:\git\ViewerJS\build\WebODF-source\webodf\webodfversion.js.in;C:\git\ViewerJS\build\WebODF-source\webodf\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\ViewerJS\build\WebODF-build\webodf\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/git/ViewerJS/build/WebODF-source/webodf/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/git/ViewerJS/build/WebODF-source -BC:/git/ViewerJS/build/WebODF-build --check-stamp-file C:\git\ViewerJS\build\WebODF-build\webodf\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/ViewerJS/build/WebODF-source/webodf/CMakeLists.txt;C:\git\ViewerJS\build\WebODF-source\webodf\CMakeLists.txt;C:\git\ViewerJS\build\WebODF-source\webodf\jsfileslist.txt.in;C:\git\ViewerJS\build\WebODF-build\webodf\jsfileslist.txt;C:\git\ViewerJS\build\WebODF-source\webodf\webodfversion.js.in;C:\git\ViewerJS\build\WebODF-source\webodf\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\ViewerJS\build\WebODF-build\webodf\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/git/ViewerJS/build/WebODF-source/webodf/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/git/ViewerJS/build/WebODF-source -BC:/git/ViewerJS/build/WebODF-build --check-stamp-file C:\git\ViewerJS\build\WebODF-build\webodf\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/ViewerJS/build/WebODF-source/webodf/CMakeLists.txt;C:\git\ViewerJS\build\WebODF-source\webodf\CMakeLists.txt;C:\git\ViewerJS\build\WebODF-source\webodf\jsfileslist.txt.in;C:\git\ViewerJS\build\WebODF-build\webodf\jsfileslist.txt;C:\git\ViewerJS\build\WebODF-source\webodf\webodfversion.js.in;C:\git\ViewerJS\build\WebODF-source\webodf\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\ViewerJS\build\WebODF-build\webodf\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\d3a622a4c245ba20074ffb21e37d5a67\webodf.css.js.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating webodf.css.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\git\ViewerJS\build\WebODF-source\webodf
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\git\ViewerJS\build\WebODF-build\NodeJS-prefix\bin\node.exe C:/git/ViewerJS/build/WebODF-source/webodf/lib/runtime.js C:/git/ViewerJS/build/WebODF-source/webodf/tools/css2js.js webodf.css C:/git/ViewerJS/build/WebODF-build/webodf/webodf.css.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/d3a622a4c245ba20074ffb21e37d5a67/webodf.css.js.rule;C:\git\ViewerJS\build\WebODF-source\webodf\tools\css2js.js;C:\git\ViewerJS\build\WebODF-source\webodf\webodf.css;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\ViewerJS\build\WebODF-build\webodf\webodf.css.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating webodf.css.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\git\ViewerJS\build\WebODF-source\webodf
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\git\ViewerJS\build\WebODF-build\NodeJS-prefix\bin\node.exe C:/git/ViewerJS/build/WebODF-source/webodf/lib/runtime.js C:/git/ViewerJS/build/WebODF-source/webodf/tools/css2js.js webodf.css C:/git/ViewerJS/build/WebODF-build/webodf/webodf.css.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/d3a622a4c245ba20074ffb21e37d5a67/webodf.css.js.rule;C:\git\ViewerJS\build\WebODF-source\webodf\tools\css2js.js;C:\git\ViewerJS\build\WebODF-source\webodf\webodf.css;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\ViewerJS\build\WebODF-build\webodf\webodf.css.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating webodf.css.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\git\ViewerJS\build\WebODF-source\webodf
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\git\ViewerJS\build\WebODF-build\NodeJS-prefix\bin\node.exe C:/git/ViewerJS/build/WebODF-source/webodf/lib/runtime.js C:/git/ViewerJS/build/WebODF-source/webodf/tools/css2js.js webodf.css C:/git/ViewerJS/build/WebODF-build/webodf/webodf.css.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/d3a622a4c245ba20074ffb21e37d5a67/webodf.css.js.rule;C:\git\ViewerJS\build\WebODF-source\webodf\tools\css2js.js;C:\git\ViewerJS\build\WebODF-source\webodf\webodf.css;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\ViewerJS\build\WebODF-build\webodf\webodf.css.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating webodf.css.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\git\ViewerJS\build\WebODF-source\webodf
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\git\ViewerJS\build\WebODF-build\NodeJS-prefix\bin\node.exe C:/git/ViewerJS/build/WebODF-source/webodf/lib/runtime.js C:/git/ViewerJS/build/WebODF-source/webodf/tools/css2js.js webodf.css C:/git/ViewerJS/build/WebODF-build/webodf/webodf.css.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/d3a622a4c245ba20074ffb21e37d5a67/webodf.css.js.rule;C:\git\ViewerJS\build\WebODF-source\webodf\tools\css2js.js;C:\git\ViewerJS\build\WebODF-source\webodf\webodf.css;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\ViewerJS\build\WebODF-build\webodf\webodf.css.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\d3a622a4c245ba20074ffb21e37d5a67\simplecompiled.js.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating simplecompiled.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Java\jdk1.8.0_91\bin\java.exe" -XX:+TieredCompilation -jar C:/git/ViewerJS/build/WebODF-build/ClosureCompiler-prefix/src/ClosureCompiler/compiler.jar --js C:/git/ViewerJS/build/WebODF-source/webodf/lib/HeaderCompiled.js --flagfile C:/git/ViewerJS/build/WebODF-build/webodf/cc-withTestFiles.txt --js C:/git/ViewerJS/build/WebODF-source/webodf/lib/externs/*.js --compilation_level WHITESPACE_ONLY --formatting PRETTY_PRINT --js_output_file simplecompiled.js-
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DFILENAME:STRING="C:/git/ViewerJS/build/WebODF-build/webodf/simplecompiled.js" -P C:/git/ViewerJS/build/WebODF-source/webodf/tools/set_IS_COMPILED_CODE.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/d3a622a4c245ba20074ffb21e37d5a67/simplecompiled.js.rule;C:\git\ViewerJS\build\WebODF-source\webodf\tests\core\UnitTester.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\core\ZipTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\core\Base64Tests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\core\CursorTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\core\DomUtilsTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\core\EventSubscriptionsTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\core\PositionIteratorTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\core\RuntimeTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\core\StepIteratorTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\gui\DirectFormattingControllerTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\gui\GuiStepUtilsTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\gui\MetadataControllerTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\gui\SelectionControllerTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\gui\StyleSummaryTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\gui\TextControllerTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\gui\ImageControllerTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\gui\TrivialUndoManagerTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\gui\UndoStateRulesTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\StyleParseUtilsTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\StyleCacheTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\FormattingTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\LayoutTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\ListStyleToCssTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\ObjectNameGeneratorTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\MaliciousDocumentTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\OdfContainerTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\OdfContainerSafetyTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\OdfUtilsTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\StyleInfoTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\TextStyleApplicatorTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\ops\OperationTestHelper.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\ops\OdtDocumentTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\ops\OperationTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\ops\SessionTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\ops\OdtStepsTranslatorTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\ops\TransformationTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\ops\TransformerTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\xmldom\LSSerializerTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\xmldom\XPathTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\tests.js;C:\git\ViewerJS\build\WebODF-source\webodf\lib\HeaderCompiled.js;C:\git\ViewerJS\build\WebODF-build\webodf\webodf.css.js;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\ViewerJS\build\WebODF-build\webodf\simplecompiled.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating simplecompiled.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Java\jdk1.8.0_91\bin\java.exe" -XX:+TieredCompilation -jar C:/git/ViewerJS/build/WebODF-build/ClosureCompiler-prefix/src/ClosureCompiler/compiler.jar --js C:/git/ViewerJS/build/WebODF-source/webodf/lib/HeaderCompiled.js --flagfile C:/git/ViewerJS/build/WebODF-build/webodf/cc-withTestFiles.txt --js C:/git/ViewerJS/build/WebODF-source/webodf/lib/externs/*.js --compilation_level WHITESPACE_ONLY --formatting PRETTY_PRINT --js_output_file simplecompiled.js-
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DFILENAME:STRING="C:/git/ViewerJS/build/WebODF-build/webodf/simplecompiled.js" -P C:/git/ViewerJS/build/WebODF-source/webodf/tools/set_IS_COMPILED_CODE.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/d3a622a4c245ba20074ffb21e37d5a67/simplecompiled.js.rule;C:\git\ViewerJS\build\WebODF-source\webodf\tests\core\UnitTester.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\core\ZipTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\core\Base64Tests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\core\CursorTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\core\DomUtilsTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\core\EventSubscriptionsTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\core\PositionIteratorTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\core\RuntimeTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\core\StepIteratorTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\gui\DirectFormattingControllerTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\gui\GuiStepUtilsTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\gui\MetadataControllerTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\gui\SelectionControllerTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\gui\StyleSummaryTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\gui\TextControllerTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\gui\ImageControllerTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\gui\TrivialUndoManagerTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\gui\UndoStateRulesTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\StyleParseUtilsTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\StyleCacheTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\FormattingTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\LayoutTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\ListStyleToCssTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\ObjectNameGeneratorTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\MaliciousDocumentTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\OdfContainerTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\OdfContainerSafetyTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\OdfUtilsTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\StyleInfoTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\TextStyleApplicatorTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\ops\OperationTestHelper.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\ops\OdtDocumentTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\ops\OperationTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\ops\SessionTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\ops\OdtStepsTranslatorTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\ops\TransformationTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\ops\TransformerTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\xmldom\LSSerializerTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\xmldom\XPathTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\tests.js;C:\git\ViewerJS\build\WebODF-source\webodf\lib\HeaderCompiled.js;C:\git\ViewerJS\build\WebODF-build\webodf\webodf.css.js;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\ViewerJS\build\WebODF-build\webodf\simplecompiled.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating simplecompiled.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Java\jdk1.8.0_91\bin\java.exe" -XX:+TieredCompilation -jar C:/git/ViewerJS/build/WebODF-build/ClosureCompiler-prefix/src/ClosureCompiler/compiler.jar --js C:/git/ViewerJS/build/WebODF-source/webodf/lib/HeaderCompiled.js --flagfile C:/git/ViewerJS/build/WebODF-build/webodf/cc-withTestFiles.txt --js C:/git/ViewerJS/build/WebODF-source/webodf/lib/externs/*.js --compilation_level WHITESPACE_ONLY --formatting PRETTY_PRINT --js_output_file simplecompiled.js-
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DFILENAME:STRING="C:/git/ViewerJS/build/WebODF-build/webodf/simplecompiled.js" -P C:/git/ViewerJS/build/WebODF-source/webodf/tools/set_IS_COMPILED_CODE.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/d3a622a4c245ba20074ffb21e37d5a67/simplecompiled.js.rule;C:\git\ViewerJS\build\WebODF-source\webodf\tests\core\UnitTester.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\core\ZipTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\core\Base64Tests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\core\CursorTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\core\DomUtilsTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\core\EventSubscriptionsTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\core\PositionIteratorTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\core\RuntimeTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\core\StepIteratorTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\gui\DirectFormattingControllerTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\gui\GuiStepUtilsTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\gui\MetadataControllerTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\gui\SelectionControllerTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\gui\StyleSummaryTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\gui\TextControllerTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\gui\ImageControllerTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\gui\TrivialUndoManagerTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\gui\UndoStateRulesTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\StyleParseUtilsTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\StyleCacheTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\FormattingTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\LayoutTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\ListStyleToCssTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\ObjectNameGeneratorTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\MaliciousDocumentTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\OdfContainerTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\OdfContainerSafetyTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\OdfUtilsTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\StyleInfoTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\TextStyleApplicatorTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\ops\OperationTestHelper.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\ops\OdtDocumentTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\ops\OperationTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\ops\SessionTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\ops\OdtStepsTranslatorTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\ops\TransformationTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\ops\TransformerTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\xmldom\LSSerializerTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\xmldom\XPathTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\tests.js;C:\git\ViewerJS\build\WebODF-source\webodf\lib\HeaderCompiled.js;C:\git\ViewerJS\build\WebODF-build\webodf\webodf.css.js;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\ViewerJS\build\WebODF-build\webodf\simplecompiled.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating simplecompiled.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Java\jdk1.8.0_91\bin\java.exe" -XX:+TieredCompilation -jar C:/git/ViewerJS/build/WebODF-build/ClosureCompiler-prefix/src/ClosureCompiler/compiler.jar --js C:/git/ViewerJS/build/WebODF-source/webodf/lib/HeaderCompiled.js --flagfile C:/git/ViewerJS/build/WebODF-build/webodf/cc-withTestFiles.txt --js C:/git/ViewerJS/build/WebODF-source/webodf/lib/externs/*.js --compilation_level WHITESPACE_ONLY --formatting PRETTY_PRINT --js_output_file simplecompiled.js-
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DFILENAME:STRING="C:/git/ViewerJS/build/WebODF-build/webodf/simplecompiled.js" -P C:/git/ViewerJS/build/WebODF-source/webodf/tools/set_IS_COMPILED_CODE.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/d3a622a4c245ba20074ffb21e37d5a67/simplecompiled.js.rule;C:\git\ViewerJS\build\WebODF-source\webodf\tests\core\UnitTester.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\core\ZipTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\core\Base64Tests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\core\CursorTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\core\DomUtilsTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\core\EventSubscriptionsTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\core\PositionIteratorTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\core\RuntimeTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\core\StepIteratorTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\gui\DirectFormattingControllerTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\gui\GuiStepUtilsTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\gui\MetadataControllerTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\gui\SelectionControllerTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\gui\StyleSummaryTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\gui\TextControllerTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\gui\ImageControllerTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\gui\TrivialUndoManagerTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\gui\UndoStateRulesTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\StyleParseUtilsTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\StyleCacheTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\FormattingTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\LayoutTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\ListStyleToCssTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\ObjectNameGeneratorTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\MaliciousDocumentTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\OdfContainerTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\OdfContainerSafetyTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\OdfUtilsTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\StyleInfoTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\odf\TextStyleApplicatorTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\ops\OperationTestHelper.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\ops\OdtDocumentTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\ops\OperationTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\ops\SessionTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\ops\OdtStepsTranslatorTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\ops\TransformationTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\ops\TransformerTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\xmldom\LSSerializerTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\xmldom\XPathTests.js;C:\git\ViewerJS\build\WebODF-source\webodf\tests\tests.js;C:\git\ViewerJS\build\WebODF-source\webodf\lib\HeaderCompiled.js;C:\git\ViewerJS\build\WebODF-build\webodf\webodf.css.js;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\ViewerJS\build\WebODF-build\webodf\simplecompiled.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\d3a622a4c245ba20074ffb21e37d5a67\simplenodetest.timestamp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating simplenodetest.timestamp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\git\ViewerJS\build\WebODF-source\webodf\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\git\ViewerJS\build\WebODF-build\NodeJS-prefix\bin\node.exe C:/git/ViewerJS/build/WebODF-build/webodf/simplecompiled.js
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/git/ViewerJS/build/WebODF-build/webodf/simplenodetest.timestamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/d3a622a4c245ba20074ffb21e37d5a67/simplenodetest.timestamp.rule;C:\git\ViewerJS\build\WebODF-build\NodeJS-prefix\bin\node.exe;C:\git\ViewerJS\build\WebODF-build\webodf\simplecompiled.js;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\ViewerJS\build\WebODF-build\webodf\simplenodetest.timestamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating simplenodetest.timestamp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\git\ViewerJS\build\WebODF-source\webodf\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\git\ViewerJS\build\WebODF-build\NodeJS-prefix\bin\node.exe C:/git/ViewerJS/build/WebODF-build/webodf/simplecompiled.js
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/git/ViewerJS/build/WebODF-build/webodf/simplenodetest.timestamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/d3a622a4c245ba20074ffb21e37d5a67/simplenodetest.timestamp.rule;C:\git\ViewerJS\build\WebODF-build\NodeJS-prefix\bin\node.exe;C:\git\ViewerJS\build\WebODF-build\webodf\simplecompiled.js;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\ViewerJS\build\WebODF-build\webodf\simplenodetest.timestamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating simplenodetest.timestamp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\git\ViewerJS\build\WebODF-source\webodf\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\git\ViewerJS\build\WebODF-build\NodeJS-prefix\bin\node.exe C:/git/ViewerJS/build/WebODF-build/webodf/simplecompiled.js
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/git/ViewerJS/build/WebODF-build/webodf/simplenodetest.timestamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/d3a622a4c245ba20074ffb21e37d5a67/simplenodetest.timestamp.rule;C:\git\ViewerJS\build\WebODF-build\NodeJS-prefix\bin\node.exe;C:\git\ViewerJS\build\WebODF-build\webodf\simplecompiled.js;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\ViewerJS\build\WebODF-build\webodf\simplenodetest.timestamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating simplenodetest.timestamp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\git\ViewerJS\build\WebODF-source\webodf\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\git\ViewerJS\build\WebODF-build\NodeJS-prefix\bin\node.exe C:/git/ViewerJS/build/WebODF-build/webodf/simplecompiled.js
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/git/ViewerJS/build/WebODF-build/webodf/simplenodetest.timestamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/d3a622a4c245ba20074ffb21e37d5a67/simplenodetest.timestamp.rule;C:\git\ViewerJS\build\WebODF-build\NodeJS-prefix\bin\node.exe;C:\git\ViewerJS\build\WebODF-build\webodf\simplecompiled.js;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\ViewerJS\build\WebODF-build\webodf\simplenodetest.timestamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\58af9ee391001d026147acc1c539769c\simplenodetest.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/58af9ee391001d026147acc1c539769c/simplenodetest.rule;C:\git\ViewerJS\build\WebODF-build\webodf\simplenodetest.timestamp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\ViewerJS\build\WebODF-build\webodf\CMakeFiles\simplenodetest</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/58af9ee391001d026147acc1c539769c/simplenodetest.rule;C:\git\ViewerJS\build\WebODF-build\webodf\simplenodetest.timestamp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\ViewerJS\build\WebODF-build\webodf\CMakeFiles\simplenodetest</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/58af9ee391001d026147acc1c539769c/simplenodetest.rule;C:\git\ViewerJS\build\WebODF-build\webodf\simplenodetest.timestamp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\ViewerJS\build\WebODF-build\webodf\CMakeFiles\simplenodetest</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/58af9ee391001d026147acc1c539769c/simplenodetest.rule;C:\git\ViewerJS\build\WebODF-build\webodf\simplenodetest.timestamp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\ViewerJS\build\WebODF-build\webodf\CMakeFiles\simplenodetest</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\git\ViewerJS\build\WebODF-build\webodf\CMakeFiles\simplenodetest" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/git/ViewerJS/build/WebODF-build/ZERO_CHECK.vcxproj">
+      <Project>6B663F78-CF36-386A-9F78-5AEA60B01A73</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/git/ViewerJS/build/WebODF-build/ClosureCompiler.vcxproj">
+      <Project>415A05A1-F1AA-3012-B6D0-50257F364209</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/git/ViewerJS/build/WebODF-build/copy_node_modules.vcxproj">
+      <Project>E5A1FBC3-982C-3E15-ACEA-09A974DE829C</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

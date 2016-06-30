@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-source\webodf\tests\CMakeLists.txt" />
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\544d3f4c179fec7ffbf3c7fcc591dbdf\manifest.json.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\544d3f4c179fec7ffbf3c7fcc591dbdf\tests.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\544d3f4c179fec7ffbf3c7fcc591dbdf\tests.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\544d3f4c179fec7ffbf3c7fcc591dbdf\utf8.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\34c1b678915624c0d3f3bdc95b7e0340\Base64Tests.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\34c1b678915624c0d3f3bdc95b7e0340\CursorTests.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\34c1b678915624c0d3f3bdc95b7e0340\DomUtilsTests.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\34c1b678915624c0d3f3bdc95b7e0340\EventSubscriptionsTests.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\34c1b678915624c0d3f3bdc95b7e0340\PositionIteratorTests.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\34c1b678915624c0d3f3bdc95b7e0340\RuntimeTests.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\34c1b678915624c0d3f3bdc95b7e0340\StepIteratorTests.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\34c1b678915624c0d3f3bdc95b7e0340\UnitTester.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\34c1b678915624c0d3f3bdc95b7e0340\ZipTests.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\faf775fc9a01ce456cc75a1e6684f2c2\DirectFormattingControllerTests.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\faf775fc9a01ce456cc75a1e6684f2c2\GuiStepUtilsTests.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\faf775fc9a01ce456cc75a1e6684f2c2\ImageControllerTests.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\faf775fc9a01ce456cc75a1e6684f2c2\MetadataControllerTests.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\faf775fc9a01ce456cc75a1e6684f2c2\SelectionControllerTests.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\faf775fc9a01ce456cc75a1e6684f2c2\StyleSummaryTests.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\faf775fc9a01ce456cc75a1e6684f2c2\TextControllerTests.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\faf775fc9a01ce456cc75a1e6684f2c2\TrivialUndoManagerTests.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\faf775fc9a01ce456cc75a1e6684f2c2\UndoStateRulesTests.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\5e472ce402aff26a2010502e9dcbc231\FormattingTests.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\5e472ce402aff26a2010502e9dcbc231\LayoutTests.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\5e472ce402aff26a2010502e9dcbc231\ListStyleToCssTests.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\5e472ce402aff26a2010502e9dcbc231\MaliciousDocumentTests.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\5e472ce402aff26a2010502e9dcbc231\ObjectNameGeneratorTests.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\5e472ce402aff26a2010502e9dcbc231\OdfContainerSafetyTests.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\5e472ce402aff26a2010502e9dcbc231\OdfContainerTests.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\5e472ce402aff26a2010502e9dcbc231\OdfUtilsTests.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\5e472ce402aff26a2010502e9dcbc231\StyleCacheTests.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\5e472ce402aff26a2010502e9dcbc231\StyleInfoTests.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\5e472ce402aff26a2010502e9dcbc231\StyleParseUtilsTests.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\5e472ce402aff26a2010502e9dcbc231\TextStyleApplicatorTests.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\ba2b5f1897e78b3cf137fd4e6d947254\OdtDocumentTests.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\ba2b5f1897e78b3cf137fd4e6d947254\OdtStepsTranslatorTests.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\ba2b5f1897e78b3cf137fd4e6d947254\OperationTestHelper.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\ba2b5f1897e78b3cf137fd4e6d947254\OperationTests.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\ba2b5f1897e78b3cf137fd4e6d947254\SessionTests.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\ba2b5f1897e78b3cf137fd4e6d947254\TransformationTests.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\ba2b5f1897e78b3cf137fd4e6d947254\TransformerTests.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\4fefae9a8d981157121e33c35c0a2933\LSSerializerTests.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\4fefae9a8d981157121e33c35c0a2933\XPathTests.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\5e472ce402aff26a2010502e9dcbc231\layouttests.xml.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\5e472ce402aff26a2010502e9dcbc231\odplayouttests.xml.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\ba2b5f1897e78b3cf137fd4e6d947254\allowedpositions.xml.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\ba2b5f1897e78b3cf137fd4e6d947254\operationtests.xml.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\ba2b5f1897e78b3cf137fd4e6d947254\transformationtests.xml.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\ba2b5f1897e78b3cf137fd4e6d947254\transformertests.xml.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\34c1b678915624c0d3f3bdc95b7e0340\hi-compressed.zip.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\34c1b678915624c0d3f3bdc95b7e0340\hi-uncompressed.zip.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\5e472ce402aff26a2010502e9dcbc231\loadsave.odt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\5e472ce402aff26a2010502e9dcbc231\malicious-js.fodt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\1a1a990d1280ad7dbf67535f8ad5ad30\simple.fodt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\5e472ce402aff26a2010502e9dcbc231\unsafe.fodt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\544d3f4c179fec7ffbf3c7fcc591dbdf\nodetest.timestamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\4bb0dbe49e06c03689fad6aae62c1152\nodetest.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\git\ViewerJS\build\WebODF-build\webodf\tests\CMakeFiles\nodetest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B4407E5E-8F4E-3A2D-953F-18D81106D45D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

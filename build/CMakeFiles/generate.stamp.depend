@@ -1,0 +1,47 @@
+# CMake generation dependency list for this directory.
+C:/git/ViewerJS/CMakeLists.txt
+C:/git/ViewerJS/build/CMakeFiles/3.6.0-rc3/CMakeSystem.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/CMakeSystemSpecificInitialize.cmake
+C:/git/ViewerJS/build/CMakeFiles/3.6.0-rc3/CMakeCCompiler.cmake
+C:/git/ViewerJS/build/CMakeFiles/3.6.0-rc3/CMakeCXXCompiler.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/Platform/Windows-MSVC.cmake
+C:/git/ViewerJS/build/CMakeFiles/3.6.0-rc3/CMakeRCCompiler.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/ExternalProject.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/FindJava.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/CMakeFindJavaCommon.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/CMakeParseArguments.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/RepositoryInfo.txt.in
+C:/Program Files/CMake/share/cmake-3.6/Modules/ExternalProject-download.cmake.in
+C:/git/ViewerJS/build/ClosureCompiler-prefix/tmp/ClosureCompiler-cfgcmd.txt.in
+C:/Program Files/CMake/share/cmake-3.6/Modules/FindGit.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/CMakeParseArguments.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/RepositoryInfo.txt.in
+C:/git/ViewerJS/build/WebODF-prefix/tmp/WebODF-cfgcmd.txt.in
+C:/Program Files/CMake/share/cmake-3.6/Modules/FindGit.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/CMakeParseArguments.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/RepositoryInfo.txt.in
+C:/git/ViewerJS/build/PDFjs-prefix/tmp/PDFjs-cfgcmd.txt.in
+C:/git/ViewerJS/viewerjsversion.js.in
+C:/git/ViewerJS/pdfjsversion.js.in
+C:/git/ViewerJS/viewerjs-plugin.php.in

@@ -1,0 +1,3 @@
+repository='external project URL'
+module='http://dl.google.com/closure-compiler/compiler-20130823.tar.gz'
+tag='MD5=105db24c4676e23f2495adfdea3159bc'

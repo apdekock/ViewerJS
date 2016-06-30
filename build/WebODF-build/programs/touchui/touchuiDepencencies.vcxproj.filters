@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-source\programs\touchui\CMakeLists.txt" />
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\9a8cb20c9a7c522e9587ff7eec53337e\index.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\9a8cb20c9a7c522e9587ff7eec53337e\scripts.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\9a8cb20c9a7c522e9587ff7eec53337e\welcome.odt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\8f7517e9abdba8b7ff0bdb9f029f05f0\touchuiDepencencies.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\git\ViewerJS\build\WebODF-build\programs\touchui\CMakeFiles\touchuiDepencencies" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B4407E5E-8F4E-3A2D-953F-18D81106D45D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\git\ViewerJS\CMakeLists.txt" />
+    <CustomBuild Include="C:\git\ViewerJS\build\CMakeFiles\45921d5405818ae3a5179de2c4502e36\PDFViewerPlugin.css.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\CMakeFiles\a3ffdeebbdacf4d824328d0c3686d394\PDFViewerPlugin.css.js-target.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\git\ViewerJS\build\CMakeFiles\PDFViewerPlugin.css.js-target" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{54B73030-2E07-3271-898F-51ECB20F22D0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

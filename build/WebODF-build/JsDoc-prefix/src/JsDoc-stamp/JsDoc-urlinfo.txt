@@ -1,0 +1,3 @@
+repository='external project URL'
+module='http://jsdoc-toolkit.googlecode.com/files/jsdoc_toolkit-2.4.0.zip'
+tag='MD5=a8f78f5ecd24b54501147b2af341a231'

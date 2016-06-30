@@ -1,0 +1,3 @@
+﻿  Performing build step for 'PDFjs'
+  npm WARN package.json pdf.js@0.8.0 No license field.
+  ShellJS is not installed. Run "npm install" to install all dependencies.

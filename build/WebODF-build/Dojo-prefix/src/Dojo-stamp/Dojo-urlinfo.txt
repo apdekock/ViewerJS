@@ -1,0 +1,3 @@
+repository='external project URL'
+module='http://download.dojotoolkit.org/release-1.8.1/dojo-release-1.8.1-src.tar.gz'
+tag='MD5=9b80b9a736b81c336accd832f3c3aea2'

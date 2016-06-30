@@ -120,7 +120,7 @@ ExternalProject_Add(
     SOURCE_DIR ${WEBODF_SOURCE_DIR}
     BINARY_DIR ${WEBODF_BUILD_DIR}
     UPDATE_COMMAND ""
-    BUILD_COMMAND make webodf.js-target
+    BUILD_COMMAND ""
     INSTALL_COMMAND ""
 )
 
@@ -259,7 +259,7 @@ add_custom_command(
     COMMAND ${CMAKE_COMMAND} -E copy_directory ${CMAKE_CURRENT_SOURCE_DIR}/images ${VIEWER_BUILD_DIR}/ViewerJS/images
     COMMAND ${CMAKE_COMMAND} -E copy_if_different ${CMAKE_CURRENT_BINARY_DIR}/index.html ${VIEWER_BUILD_DIR}/ViewerJS/index.html
     COMMAND ${CMAKE_COMMAND} -E copy_if_different ${CMAKE_CURRENT_SOURCE_DIR}/example.local.css ${VIEWER_BUILD_DIR}/ViewerJS/example.local.css
-    COMMAND ${CMAKE_COMMAND} -E copy_if_different ${WEBODF_BUILD_DIR}/webodf/webodf.js ${VIEWER_BUILD_DIR}/ViewerJS
+    COMMAND ${CMAKE_COMMAND} -E copy_if_different ${CMAKE_BINARY_DIR}/webodf.js-0.5.9/webodf.js ${VIEWER_BUILD_DIR}/ViewerJS
     COMMAND ${CMAKE_COMMAND} -E copy_if_different ${CMAKE_BINARY_DIR}/pdfjsversion.js ${VIEWER_BUILD_DIR}/ViewerJS/pdfjsversion.js
     COMMAND ${CMAKE_COMMAND} -E copy_if_different ${PDFJS_SOURCE_DIR}/build/pdf.js ${VIEWER_BUILD_DIR}/ViewerJS/pdf.js
     COMMAND ${CMAKE_COMMAND} -E copy_if_different ${PDFJS_SOURCE_DIR}/build/pdf.worker.js ${VIEWER_BUILD_DIR}/ViewerJS/pdf.worker.js

@@ -1,0 +1,732 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{787C2342-7C24-33EE-A12A-9EFB261CC28B}</ProjectGUID>
+    <WindowsTargetPlatformVersion>10.0.10240.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>product-firefoxosviewer</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-source\programs\cordova\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/git/ViewerJS/build/WebODF-source/programs/cordova/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/git/ViewerJS/build/WebODF-source -BC:/git/ViewerJS/build/WebODF-build --check-stamp-file C:\git\ViewerJS\build\WebODF-build\programs\cordova\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/ViewerJS/build/WebODF-source/programs/cordova/CMakeLists.txt;C:\git\ViewerJS\build\WebODF-source\programs\cordova\CMakeLists.txt;C:\git\ViewerJS\build\WebODF-source\programs\cordova\config.xml.in;C:\git\ViewerJS\build\WebODF-source\programs\cordova\manifest.webapp.in;C:\git\ViewerJS\build\WebODF-source\programs\cordova\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\ViewerJS\build\WebODF-build\programs\cordova\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/git/ViewerJS/build/WebODF-source/programs/cordova/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/git/ViewerJS/build/WebODF-source -BC:/git/ViewerJS/build/WebODF-build --check-stamp-file C:\git\ViewerJS\build\WebODF-build\programs\cordova\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/ViewerJS/build/WebODF-source/programs/cordova/CMakeLists.txt;C:\git\ViewerJS\build\WebODF-source\programs\cordova\CMakeLists.txt;C:\git\ViewerJS\build\WebODF-source\programs\cordova\config.xml.in;C:\git\ViewerJS\build\WebODF-source\programs\cordova\manifest.webapp.in;C:\git\ViewerJS\build\WebODF-source\programs\cordova\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\ViewerJS\build\WebODF-build\programs\cordova\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/git/ViewerJS/build/WebODF-source/programs/cordova/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/git/ViewerJS/build/WebODF-source -BC:/git/ViewerJS/build/WebODF-build --check-stamp-file C:\git\ViewerJS\build\WebODF-build\programs\cordova\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/ViewerJS/build/WebODF-source/programs/cordova/CMakeLists.txt;C:\git\ViewerJS\build\WebODF-source\programs\cordova\CMakeLists.txt;C:\git\ViewerJS\build\WebODF-source\programs\cordova\config.xml.in;C:\git\ViewerJS\build\WebODF-source\programs\cordova\manifest.webapp.in;C:\git\ViewerJS\build\WebODF-source\programs\cordova\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\ViewerJS\build\WebODF-build\programs\cordova\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/git/ViewerJS/build/WebODF-source/programs/cordova/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/git/ViewerJS/build/WebODF-source -BC:/git/ViewerJS/build/WebODF-build --check-stamp-file C:\git\ViewerJS\build\WebODF-build\programs\cordova\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/ViewerJS/build/WebODF-source/programs/cordova/CMakeLists.txt;C:\git\ViewerJS\build\WebODF-source\programs\cordova\CMakeLists.txt;C:\git\ViewerJS\build\WebODF-source\programs\cordova\config.xml.in;C:\git\ViewerJS\build\WebODF-source\programs\cordova\manifest.webapp.in;C:\git\ViewerJS\build\WebODF-source\programs\cordova\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\ViewerJS\build\WebODF-build\programs\cordova\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\9ef6559dfad48bed985f75dbd0b1e6d7\cordova.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../../node_modules/cordova/bin/cordova</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\git\ViewerJS\build\WebODF-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\git\ViewerJS\build\WebODF-build\NodeJS-prefix\bin\npm.exe install cordova@3.5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/9ef6559dfad48bed985f75dbd0b1e6d7/cordova.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\ViewerJS\build\WebODF-build\node_modules\cordova\bin\cordova</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../../node_modules/cordova/bin/cordova</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\git\ViewerJS\build\WebODF-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\git\ViewerJS\build\WebODF-build\NodeJS-prefix\bin\npm.exe install cordova@3.5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/9ef6559dfad48bed985f75dbd0b1e6d7/cordova.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\ViewerJS\build\WebODF-build\node_modules\cordova\bin\cordova</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../../node_modules/cordova/bin/cordova</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\git\ViewerJS\build\WebODF-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\git\ViewerJS\build\WebODF-build\NodeJS-prefix\bin\npm.exe install cordova@3.5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/9ef6559dfad48bed985f75dbd0b1e6d7/cordova.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\ViewerJS\build\WebODF-build\node_modules\cordova\bin\cordova</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../../node_modules/cordova/bin/cordova</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\git\ViewerJS\build\WebODF-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\git\ViewerJS\build\WebODF-build\NodeJS-prefix\bin\npm.exe install cordova@3.5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/9ef6559dfad48bed985f75dbd0b1e6d7/cordova.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\ViewerJS\build\WebODF-build\node_modules\cordova\bin\cordova</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\769912d9fc9b2cfe3b6154e86e1b9201\README.md.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating WebODF/hooks/README.md</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\git\ViewerJS\build\WebODF-build\programs\cordova
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E remove_directory C:/git/ViewerJS/build/WebODF-build/programs/cordova/WebODF
+if %errorlevel% neq 0 goto :cmEnd
+C:\git\ViewerJS\build\WebODF-build\node_modules\cordova\bin\cordova create WebODF org.webodf WebODF --copy-from C:/git/ViewerJS/build/WebODF-source/programs/cordova/www
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/769912d9fc9b2cfe3b6154e86e1b9201/README.md.rule;C:\git\ViewerJS\build\WebODF-build\node_modules\cordova\bin\cordova;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF\hooks\README.md</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating WebODF/hooks/README.md</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\git\ViewerJS\build\WebODF-build\programs\cordova
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E remove_directory C:/git/ViewerJS/build/WebODF-build/programs/cordova/WebODF
+if %errorlevel% neq 0 goto :cmEnd
+C:\git\ViewerJS\build\WebODF-build\node_modules\cordova\bin\cordova create WebODF org.webodf WebODF --copy-from C:/git/ViewerJS/build/WebODF-source/programs/cordova/www
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/769912d9fc9b2cfe3b6154e86e1b9201/README.md.rule;C:\git\ViewerJS\build\WebODF-build\node_modules\cordova\bin\cordova;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF\hooks\README.md</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating WebODF/hooks/README.md</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\git\ViewerJS\build\WebODF-build\programs\cordova
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E remove_directory C:/git/ViewerJS/build/WebODF-build/programs/cordova/WebODF
+if %errorlevel% neq 0 goto :cmEnd
+C:\git\ViewerJS\build\WebODF-build\node_modules\cordova\bin\cordova create WebODF org.webodf WebODF --copy-from C:/git/ViewerJS/build/WebODF-source/programs/cordova/www
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/769912d9fc9b2cfe3b6154e86e1b9201/README.md.rule;C:\git\ViewerJS\build\WebODF-build\node_modules\cordova\bin\cordova;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF\hooks\README.md</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating WebODF/hooks/README.md</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\git\ViewerJS\build\WebODF-build\programs\cordova
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E remove_directory C:/git/ViewerJS/build/WebODF-build/programs/cordova/WebODF
+if %errorlevel% neq 0 goto :cmEnd
+C:\git\ViewerJS\build\WebODF-build\node_modules\cordova\bin\cordova create WebODF org.webodf WebODF --copy-from C:/git/ViewerJS/build/WebODF-source/programs/cordova/www
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/769912d9fc9b2cfe3b6154e86e1b9201/README.md.rule;C:\git\ViewerJS\build\WebODF-build\node_modules\cordova\bin\cordova;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF\hooks\README.md</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\27061a060eb9be15010195d27dea7970\config.xml.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating WebODF/merges/config.xml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E remove_directory C:/git/ViewerJS/build/WebODF-build/programs/cordova/WebODF/www
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/git/ViewerJS/build/WebODF-source/programs/cordova/www C:/git/ViewerJS/build/WebODF-build/programs/cordova/WebODF/www
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E remove_directory C:/git/ViewerJS/build/WebODF-build/programs/cordova/WebODF/merges
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/git/ViewerJS/build/WebODF-source/programs/cordova/merges C:/git/ViewerJS/build/WebODF-build/programs/cordova/WebODF/merges
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-build/programs/cordova/config.xml C:/git/ViewerJS/build/WebODF-build/programs/cordova/WebODF/merges
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-build/programs/cordova/manifest.webapp C:/git/ViewerJS/build/WebODF-build/programs/cordova/WebODF/merges/firefoxos/manifest.webapp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-build/webodf/webodf.js C:/git/ViewerJS/build/WebODF-build/programs/cordova/WebODF/www/webodf.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/27061a060eb9be15010195d27dea7970/config.xml.rule;C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF\hooks\README.md;C:\git\ViewerJS\build\WebODF-source\programs\cordova\config.xml.in;C:\git\ViewerJS\build\WebODF-source\programs\cordova\manifest.webapp.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF\merges\config.xml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating WebODF/merges/config.xml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E remove_directory C:/git/ViewerJS/build/WebODF-build/programs/cordova/WebODF/www
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/git/ViewerJS/build/WebODF-source/programs/cordova/www C:/git/ViewerJS/build/WebODF-build/programs/cordova/WebODF/www
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E remove_directory C:/git/ViewerJS/build/WebODF-build/programs/cordova/WebODF/merges
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/git/ViewerJS/build/WebODF-source/programs/cordova/merges C:/git/ViewerJS/build/WebODF-build/programs/cordova/WebODF/merges
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-build/programs/cordova/config.xml C:/git/ViewerJS/build/WebODF-build/programs/cordova/WebODF/merges
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-build/programs/cordova/manifest.webapp C:/git/ViewerJS/build/WebODF-build/programs/cordova/WebODF/merges/firefoxos/manifest.webapp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-build/webodf/webodf.js C:/git/ViewerJS/build/WebODF-build/programs/cordova/WebODF/www/webodf.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/27061a060eb9be15010195d27dea7970/config.xml.rule;C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF\hooks\README.md;C:\git\ViewerJS\build\WebODF-source\programs\cordova\config.xml.in;C:\git\ViewerJS\build\WebODF-source\programs\cordova\manifest.webapp.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF\merges\config.xml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating WebODF/merges/config.xml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E remove_directory C:/git/ViewerJS/build/WebODF-build/programs/cordova/WebODF/www
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/git/ViewerJS/build/WebODF-source/programs/cordova/www C:/git/ViewerJS/build/WebODF-build/programs/cordova/WebODF/www
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E remove_directory C:/git/ViewerJS/build/WebODF-build/programs/cordova/WebODF/merges
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/git/ViewerJS/build/WebODF-source/programs/cordova/merges C:/git/ViewerJS/build/WebODF-build/programs/cordova/WebODF/merges
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-build/programs/cordova/config.xml C:/git/ViewerJS/build/WebODF-build/programs/cordova/WebODF/merges
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-build/programs/cordova/manifest.webapp C:/git/ViewerJS/build/WebODF-build/programs/cordova/WebODF/merges/firefoxos/manifest.webapp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-build/webodf/webodf.js C:/git/ViewerJS/build/WebODF-build/programs/cordova/WebODF/www/webodf.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/27061a060eb9be15010195d27dea7970/config.xml.rule;C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF\hooks\README.md;C:\git\ViewerJS\build\WebODF-source\programs\cordova\config.xml.in;C:\git\ViewerJS\build\WebODF-source\programs\cordova\manifest.webapp.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF\merges\config.xml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating WebODF/merges/config.xml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E remove_directory C:/git/ViewerJS/build/WebODF-build/programs/cordova/WebODF/www
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/git/ViewerJS/build/WebODF-source/programs/cordova/www C:/git/ViewerJS/build/WebODF-build/programs/cordova/WebODF/www
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E remove_directory C:/git/ViewerJS/build/WebODF-build/programs/cordova/WebODF/merges
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/git/ViewerJS/build/WebODF-source/programs/cordova/merges C:/git/ViewerJS/build/WebODF-build/programs/cordova/WebODF/merges
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-build/programs/cordova/config.xml C:/git/ViewerJS/build/WebODF-build/programs/cordova/WebODF/merges
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-build/programs/cordova/manifest.webapp C:/git/ViewerJS/build/WebODF-build/programs/cordova/WebODF/merges/firefoxos/manifest.webapp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-build/webodf/webodf.js C:/git/ViewerJS/build/WebODF-build/programs/cordova/WebODF/www/webodf.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/27061a060eb9be15010195d27dea7970/config.xml.rule;C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF\hooks\README.md;C:\git\ViewerJS\build\WebODF-source\programs\cordova\config.xml.in;C:\git\ViewerJS\build\WebODF-source\programs\cordova\manifest.webapp.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF\merges\config.xml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\ead58cb948de05ca22ceec9389e09c6e\plugin.xml.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating WebODF/plugins/org.apache.cordova.file/plugin.xml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\git\ViewerJS\build\WebODF-build\node_modules\cordova\bin\cordova plugins add org.apache.cordova.file
+if %errorlevel% neq 0 goto :cmEnd
+C:\git\ViewerJS\build\WebODF-build\node_modules\cordova\bin\cordova plugins add C:/git/ViewerJS/build/WebODF-source/programs/cordova/plugins/org.webodf.starturl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/ead58cb948de05ca22ceec9389e09c6e/plugin.xml.rule;C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF\hooks\README.md;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF\plugins\org.apache.cordova.file\plugin.xml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating WebODF/plugins/org.apache.cordova.file/plugin.xml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\git\ViewerJS\build\WebODF-build\node_modules\cordova\bin\cordova plugins add org.apache.cordova.file
+if %errorlevel% neq 0 goto :cmEnd
+C:\git\ViewerJS\build\WebODF-build\node_modules\cordova\bin\cordova plugins add C:/git/ViewerJS/build/WebODF-source/programs/cordova/plugins/org.webodf.starturl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/ead58cb948de05ca22ceec9389e09c6e/plugin.xml.rule;C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF\hooks\README.md;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF\plugins\org.apache.cordova.file\plugin.xml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating WebODF/plugins/org.apache.cordova.file/plugin.xml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\git\ViewerJS\build\WebODF-build\node_modules\cordova\bin\cordova plugins add org.apache.cordova.file
+if %errorlevel% neq 0 goto :cmEnd
+C:\git\ViewerJS\build\WebODF-build\node_modules\cordova\bin\cordova plugins add C:/git/ViewerJS/build/WebODF-source/programs/cordova/plugins/org.webodf.starturl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/ead58cb948de05ca22ceec9389e09c6e/plugin.xml.rule;C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF\hooks\README.md;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF\plugins\org.apache.cordova.file\plugin.xml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating WebODF/plugins/org.apache.cordova.file/plugin.xml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\git\ViewerJS\build\WebODF-build\node_modules\cordova\bin\cordova plugins add org.apache.cordova.file
+if %errorlevel% neq 0 goto :cmEnd
+C:\git\ViewerJS\build\WebODF-build\node_modules\cordova\bin\cordova plugins add C:/git/ViewerJS/build/WebODF-source/programs/cordova/plugins/org.webodf.starturl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/ead58cb948de05ca22ceec9389e09c6e/plugin.xml.rule;C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF\hooks\README.md;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF\plugins\org.apache.cordova.file\plugin.xml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\a61a981e0af0d6092e172b1a8335147c\firefoxos.json.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating WebODF/plugins/firefoxos.json</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\git\ViewerJS\build\WebODF-build\node_modules\cordova\bin\cordova platform add firefoxos
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/a61a981e0af0d6092e172b1a8335147c/firefoxos.json.rule;C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF\plugins\org.apache.cordova.file\plugin.xml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF\plugins\firefoxos.json</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating WebODF/plugins/firefoxos.json</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\git\ViewerJS\build\WebODF-build\node_modules\cordova\bin\cordova platform add firefoxos
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/a61a981e0af0d6092e172b1a8335147c/firefoxos.json.rule;C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF\plugins\org.apache.cordova.file\plugin.xml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF\plugins\firefoxos.json</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating WebODF/plugins/firefoxos.json</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\git\ViewerJS\build\WebODF-build\node_modules\cordova\bin\cordova platform add firefoxos
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/a61a981e0af0d6092e172b1a8335147c/firefoxos.json.rule;C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF\plugins\org.apache.cordova.file\plugin.xml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF\plugins\firefoxos.json</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating WebODF/plugins/firefoxos.json</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\git\ViewerJS\build\WebODF-build\node_modules\cordova\bin\cordova platform add firefoxos
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/a61a981e0af0d6092e172b1a8335147c/firefoxos.json.rule;C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF\plugins\org.apache.cordova.file\plugin.xml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF\plugins\firefoxos.json</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\9d4febafb45e4f5dbdea342e7cf09d5a\package.zip.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating WebODF/platforms/firefoxos/build/package.zip</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\git\ViewerJS\build\WebODF-build\node_modules\cordova\bin\cordova build firefoxos
+if %errorlevel% neq 0 goto :cmEnd
+C:\git\ViewerJS\build\WebODF-build\NodeJS-prefix\bin\node.exe C:/git/ViewerJS/build/WebODF-source/webodf/lib/runtime.js C:/git/ViewerJS/build/WebODF-source/webodf/tools/zipdir.js C:/git/ViewerJS/build/WebODF-build/programs/cordova/WebODF/platforms/firefoxos/www/ C:/git/ViewerJS/build/WebODF-build/programs/cordova/WebODF/platforms/firefoxos/build/package.zip notopdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/9d4febafb45e4f5dbdea342e7cf09d5a/package.zip.rule;C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF\merges\config.xml;C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF\plugins\firefoxos.json;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF\platforms\firefoxos\build\package.zip</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating WebODF/platforms/firefoxos/build/package.zip</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\git\ViewerJS\build\WebODF-build\node_modules\cordova\bin\cordova build firefoxos
+if %errorlevel% neq 0 goto :cmEnd
+C:\git\ViewerJS\build\WebODF-build\NodeJS-prefix\bin\node.exe C:/git/ViewerJS/build/WebODF-source/webodf/lib/runtime.js C:/git/ViewerJS/build/WebODF-source/webodf/tools/zipdir.js C:/git/ViewerJS/build/WebODF-build/programs/cordova/WebODF/platforms/firefoxos/www/ C:/git/ViewerJS/build/WebODF-build/programs/cordova/WebODF/platforms/firefoxos/build/package.zip notopdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/9d4febafb45e4f5dbdea342e7cf09d5a/package.zip.rule;C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF\merges\config.xml;C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF\plugins\firefoxos.json;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF\platforms\firefoxos\build\package.zip</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating WebODF/platforms/firefoxos/build/package.zip</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\git\ViewerJS\build\WebODF-build\node_modules\cordova\bin\cordova build firefoxos
+if %errorlevel% neq 0 goto :cmEnd
+C:\git\ViewerJS\build\WebODF-build\NodeJS-prefix\bin\node.exe C:/git/ViewerJS/build/WebODF-source/webodf/lib/runtime.js C:/git/ViewerJS/build/WebODF-source/webodf/tools/zipdir.js C:/git/ViewerJS/build/WebODF-build/programs/cordova/WebODF/platforms/firefoxos/www/ C:/git/ViewerJS/build/WebODF-build/programs/cordova/WebODF/platforms/firefoxos/build/package.zip notopdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/9d4febafb45e4f5dbdea342e7cf09d5a/package.zip.rule;C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF\merges\config.xml;C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF\plugins\firefoxos.json;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF\platforms\firefoxos\build\package.zip</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating WebODF/platforms/firefoxos/build/package.zip</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\git\ViewerJS\build\WebODF-build\node_modules\cordova\bin\cordova build firefoxos
+if %errorlevel% neq 0 goto :cmEnd
+C:\git\ViewerJS\build\WebODF-build\NodeJS-prefix\bin\node.exe C:/git/ViewerJS/build/WebODF-source/webodf/lib/runtime.js C:/git/ViewerJS/build/WebODF-source/webodf/tools/zipdir.js C:/git/ViewerJS/build/WebODF-build/programs/cordova/WebODF/platforms/firefoxos/www/ C:/git/ViewerJS/build/WebODF-build/programs/cordova/WebODF/platforms/firefoxos/build/package.zip notopdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/9d4febafb45e4f5dbdea342e7cf09d5a/package.zip.rule;C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF\merges\config.xml;C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF\plugins\firefoxos.json;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF\platforms\firefoxos\build\package.zip</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\435eda615068a12183486850f35914f9\product-firefoxosviewer.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/435eda615068a12183486850f35914f9/product-firefoxosviewer.rule;C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF\platforms\firefoxos\build\package.zip;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\ViewerJS\build\WebODF-build\programs\cordova\CMakeFiles\product-firefoxosviewer</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/435eda615068a12183486850f35914f9/product-firefoxosviewer.rule;C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF\platforms\firefoxos\build\package.zip;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\ViewerJS\build\WebODF-build\programs\cordova\CMakeFiles\product-firefoxosviewer</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/435eda615068a12183486850f35914f9/product-firefoxosviewer.rule;C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF\platforms\firefoxos\build\package.zip;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\ViewerJS\build\WebODF-build\programs\cordova\CMakeFiles\product-firefoxosviewer</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/435eda615068a12183486850f35914f9/product-firefoxosviewer.rule;C:\git\ViewerJS\build\WebODF-build\programs\cordova\WebODF\platforms\firefoxos\build\package.zip;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\ViewerJS\build\WebODF-build\programs\cordova\CMakeFiles\product-firefoxosviewer</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\git\ViewerJS\build\WebODF-build\programs\cordova\CMakeFiles\product-firefoxosviewer" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/git/ViewerJS/build/WebODF-build/ZERO_CHECK.vcxproj">
+      <Project>6B663F78-CF36-386A-9F78-5AEA60B01A73</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/git/ViewerJS/build/WebODF-build/copy_node_modules.vcxproj">
+      <Project>E5A1FBC3-982C-3E15-ACEA-09A974DE829C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/git/ViewerJS/build/WebODF-build/webodf/webodf.js-target.vcxproj">
+      <Project>3BB843E5-242E-380D-90A6-C588ECA29913</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

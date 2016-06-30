@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\git\ViewerJS\CMakeLists.txt" />
+    <CustomBuild Include="C:\git\ViewerJS\build\CMakeFiles\5af26122464fc6580d3e5629ef1ec7b3\PDFjs-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\CMakeFiles\5af26122464fc6580d3e5629ef1ec7b3\PDFjs-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\CMakeFiles\5af26122464fc6580d3e5629ef1ec7b3\PDFjs-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\CMakeFiles\5af26122464fc6580d3e5629ef1ec7b3\PDFjs-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\CMakeFiles\5af26122464fc6580d3e5629ef1ec7b3\PDFjs-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\CMakeFiles\5af26122464fc6580d3e5629ef1ec7b3\PDFjs-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\CMakeFiles\5af26122464fc6580d3e5629ef1ec7b3\PDFjs-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\CMakeFiles\0f77f53cfc99da81619a12d549fbcb48\PDFjs-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\CMakeFiles\a3ffdeebbdacf4d824328d0c3686d394\PDFjs.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\git\ViewerJS\build\CMakeFiles\PDFjs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{54B73030-2E07-3271-898F-51ECB20F22D0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

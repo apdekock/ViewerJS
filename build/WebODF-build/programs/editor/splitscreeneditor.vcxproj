@@ -1,0 +1,1474 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{AF0036F9-D2EE-3B6E-86FC-6EB60B4F59C5}</ProjectGUID>
+    <WindowsTargetPlatformVersion>10.0.10240.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>splitscreeneditor</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-source\programs\editor\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/git/ViewerJS/build/WebODF-source/programs/editor/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/git/ViewerJS/build/WebODF-source -BC:/git/ViewerJS/build/WebODF-build --check-stamp-file C:\git\ViewerJS\build\WebODF-build\programs\editor\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/ViewerJS/build/WebODF-source/programs/editor/CMakeLists.txt;C:\git\ViewerJS\build\WebODF-source\programs\editor\CMakeLists.txt;C:\git\ViewerJS\build\WebODF-source\programs\editor\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/git/ViewerJS/build/WebODF-source/programs/editor/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/git/ViewerJS/build/WebODF-source -BC:/git/ViewerJS/build/WebODF-build --check-stamp-file C:\git\ViewerJS\build\WebODF-build\programs\editor\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/ViewerJS/build/WebODF-source/programs/editor/CMakeLists.txt;C:\git\ViewerJS\build\WebODF-source\programs\editor\CMakeLists.txt;C:\git\ViewerJS\build\WebODF-source\programs\editor\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/git/ViewerJS/build/WebODF-source/programs/editor/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/git/ViewerJS/build/WebODF-source -BC:/git/ViewerJS/build/WebODF-build --check-stamp-file C:\git\ViewerJS\build\WebODF-build\programs\editor\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/ViewerJS/build/WebODF-source/programs/editor/CMakeLists.txt;C:\git\ViewerJS\build\WebODF-source\programs\editor\CMakeLists.txt;C:\git\ViewerJS\build\WebODF-source\programs\editor\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/git/ViewerJS/build/WebODF-source/programs/editor/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/git/ViewerJS/build/WebODF-source -BC:/git/ViewerJS/build/WebODF-build --check-stamp-file C:\git\ViewerJS\build\WebODF-build\programs\editor\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/ViewerJS/build/WebODF-source/programs/editor/CMakeLists.txt;C:\git\ViewerJS\build\WebODF-source\programs\editor\CMakeLists.txt;C:\git\ViewerJS\build\WebODF-source\programs\editor\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\0af0dce16f8f04680902af109c8ffb35\dojo-amalgamation.js.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating dojo-amalgamation.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/git/ViewerJS/build/WebODF-source/programs/editor/dojo-deps/ dojo-deps/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/git/ViewerJS/build/WebODF-build/Dojo-prefix/src/Dojo/dojo/ dojo-deps/src/dojo/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/git/ViewerJS/build/WebODF-build/Dojo-prefix/src/Dojo/dijit/ dojo-deps/src/dijit/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/git/ViewerJS/build/WebODF-build/Dojo-prefix/src/Dojo/dojox/ dojo-deps/src/dojox/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/git/ViewerJS/build/WebODF-build/Dojo-prefix/src/Dojo/util/ dojo-deps/src/util/
+if %errorlevel% neq 0 goto :cmEnd
+..\..\NodeJS-prefix\bin\node.exe C:/git/ViewerJS/build/WebODF-build/programs/editor/dojo-deps/src/dojo/dojo.js load=build --require C:/git/ViewerJS/build/WebODF-build/programs/editor/dojo-deps/src/app/run.js --profile C:/git/ViewerJS/build/WebODF-build/programs/editor/dojo-deps/profiles/app.profile.js --releaseDir C:/git/ViewerJS/build/WebODF-build/programs/editor/dojo-deps/dist
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory dojo/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy dojo-deps/dist/dojo/dojo.js dojo/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory dojo-deps/dist/dojo/resources/ dojo/resources/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory app/resources/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy dojo-deps/dist/app/resources/app.css app/resources/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory dijit/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory dijit/themes
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory dojo-deps/dist/dijit/themes/a11y/ dijit/themes/a11y/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory dojo-deps/dist/dijit/themes/claro/ dijit/themes/claro/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy dojo-deps/dist/dijit/themes/dijit.css dijit/themes/dijit.css
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy dojo-deps/dist/dijit/themes/dijit_rtl.css dijit/themes/dijit_rtl.css
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory dojo-deps/dist/dijit/icons/ dijit/icons/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory dojox/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory dojo-deps/dist/dojox/layout/resources/ dojox/layout/resources/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory dojo-deps/dist/dojox/widget/ColorPicker/ dojox/widget/ColorPicker/
+if %errorlevel% neq 0 goto :cmEnd
+..\..\NodeJS-prefix\bin\node.exe C:/git/ViewerJS/build/WebODF-source/webodf/tools/dojoNlsCompile.js dojo-deps/dist de fr nl it eu &gt; dojobundle.js
+if %errorlevel% neq 0 goto :cmEnd
+..\..\NodeJS-prefix\bin\node.exe C:/git/ViewerJS/build/WebODF-source/programs/editor/libexec/mergeIntoDojo.js dojobuild=C:/git/ViewerJS/build/WebODF-build/programs/editor/dojo-deps/dist/dojo/dojo.js dojobundle.js &gt; dojo-amalgamation.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/dojo-amalgamation.js.rule;C:\git\ViewerJS\build\WebODF-build\NodeJS-prefix\bin\node.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\dojo-amalgamation.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating dojo-amalgamation.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/git/ViewerJS/build/WebODF-source/programs/editor/dojo-deps/ dojo-deps/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/git/ViewerJS/build/WebODF-build/Dojo-prefix/src/Dojo/dojo/ dojo-deps/src/dojo/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/git/ViewerJS/build/WebODF-build/Dojo-prefix/src/Dojo/dijit/ dojo-deps/src/dijit/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/git/ViewerJS/build/WebODF-build/Dojo-prefix/src/Dojo/dojox/ dojo-deps/src/dojox/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/git/ViewerJS/build/WebODF-build/Dojo-prefix/src/Dojo/util/ dojo-deps/src/util/
+if %errorlevel% neq 0 goto :cmEnd
+..\..\NodeJS-prefix\bin\node.exe C:/git/ViewerJS/build/WebODF-build/programs/editor/dojo-deps/src/dojo/dojo.js load=build --require C:/git/ViewerJS/build/WebODF-build/programs/editor/dojo-deps/src/app/run.js --profile C:/git/ViewerJS/build/WebODF-build/programs/editor/dojo-deps/profiles/app.profile.js --releaseDir C:/git/ViewerJS/build/WebODF-build/programs/editor/dojo-deps/dist
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory dojo/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy dojo-deps/dist/dojo/dojo.js dojo/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory dojo-deps/dist/dojo/resources/ dojo/resources/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory app/resources/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy dojo-deps/dist/app/resources/app.css app/resources/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory dijit/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory dijit/themes
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory dojo-deps/dist/dijit/themes/a11y/ dijit/themes/a11y/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory dojo-deps/dist/dijit/themes/claro/ dijit/themes/claro/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy dojo-deps/dist/dijit/themes/dijit.css dijit/themes/dijit.css
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy dojo-deps/dist/dijit/themes/dijit_rtl.css dijit/themes/dijit_rtl.css
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory dojo-deps/dist/dijit/icons/ dijit/icons/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory dojox/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory dojo-deps/dist/dojox/layout/resources/ dojox/layout/resources/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory dojo-deps/dist/dojox/widget/ColorPicker/ dojox/widget/ColorPicker/
+if %errorlevel% neq 0 goto :cmEnd
+..\..\NodeJS-prefix\bin\node.exe C:/git/ViewerJS/build/WebODF-source/webodf/tools/dojoNlsCompile.js dojo-deps/dist de fr nl it eu &gt; dojobundle.js
+if %errorlevel% neq 0 goto :cmEnd
+..\..\NodeJS-prefix\bin\node.exe C:/git/ViewerJS/build/WebODF-source/programs/editor/libexec/mergeIntoDojo.js dojobuild=C:/git/ViewerJS/build/WebODF-build/programs/editor/dojo-deps/dist/dojo/dojo.js dojobundle.js &gt; dojo-amalgamation.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/dojo-amalgamation.js.rule;C:\git\ViewerJS\build\WebODF-build\NodeJS-prefix\bin\node.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\dojo-amalgamation.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating dojo-amalgamation.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/git/ViewerJS/build/WebODF-source/programs/editor/dojo-deps/ dojo-deps/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/git/ViewerJS/build/WebODF-build/Dojo-prefix/src/Dojo/dojo/ dojo-deps/src/dojo/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/git/ViewerJS/build/WebODF-build/Dojo-prefix/src/Dojo/dijit/ dojo-deps/src/dijit/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/git/ViewerJS/build/WebODF-build/Dojo-prefix/src/Dojo/dojox/ dojo-deps/src/dojox/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/git/ViewerJS/build/WebODF-build/Dojo-prefix/src/Dojo/util/ dojo-deps/src/util/
+if %errorlevel% neq 0 goto :cmEnd
+..\..\NodeJS-prefix\bin\node.exe C:/git/ViewerJS/build/WebODF-build/programs/editor/dojo-deps/src/dojo/dojo.js load=build --require C:/git/ViewerJS/build/WebODF-build/programs/editor/dojo-deps/src/app/run.js --profile C:/git/ViewerJS/build/WebODF-build/programs/editor/dojo-deps/profiles/app.profile.js --releaseDir C:/git/ViewerJS/build/WebODF-build/programs/editor/dojo-deps/dist
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory dojo/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy dojo-deps/dist/dojo/dojo.js dojo/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory dojo-deps/dist/dojo/resources/ dojo/resources/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory app/resources/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy dojo-deps/dist/app/resources/app.css app/resources/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory dijit/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory dijit/themes
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory dojo-deps/dist/dijit/themes/a11y/ dijit/themes/a11y/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory dojo-deps/dist/dijit/themes/claro/ dijit/themes/claro/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy dojo-deps/dist/dijit/themes/dijit.css dijit/themes/dijit.css
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy dojo-deps/dist/dijit/themes/dijit_rtl.css dijit/themes/dijit_rtl.css
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory dojo-deps/dist/dijit/icons/ dijit/icons/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory dojox/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory dojo-deps/dist/dojox/layout/resources/ dojox/layout/resources/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory dojo-deps/dist/dojox/widget/ColorPicker/ dojox/widget/ColorPicker/
+if %errorlevel% neq 0 goto :cmEnd
+..\..\NodeJS-prefix\bin\node.exe C:/git/ViewerJS/build/WebODF-source/webodf/tools/dojoNlsCompile.js dojo-deps/dist de fr nl it eu &gt; dojobundle.js
+if %errorlevel% neq 0 goto :cmEnd
+..\..\NodeJS-prefix\bin\node.exe C:/git/ViewerJS/build/WebODF-source/programs/editor/libexec/mergeIntoDojo.js dojobuild=C:/git/ViewerJS/build/WebODF-build/programs/editor/dojo-deps/dist/dojo/dojo.js dojobundle.js &gt; dojo-amalgamation.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/dojo-amalgamation.js.rule;C:\git\ViewerJS\build\WebODF-build\NodeJS-prefix\bin\node.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\dojo-amalgamation.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating dojo-amalgamation.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/git/ViewerJS/build/WebODF-source/programs/editor/dojo-deps/ dojo-deps/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/git/ViewerJS/build/WebODF-build/Dojo-prefix/src/Dojo/dojo/ dojo-deps/src/dojo/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/git/ViewerJS/build/WebODF-build/Dojo-prefix/src/Dojo/dijit/ dojo-deps/src/dijit/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/git/ViewerJS/build/WebODF-build/Dojo-prefix/src/Dojo/dojox/ dojo-deps/src/dojox/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/git/ViewerJS/build/WebODF-build/Dojo-prefix/src/Dojo/util/ dojo-deps/src/util/
+if %errorlevel% neq 0 goto :cmEnd
+..\..\NodeJS-prefix\bin\node.exe C:/git/ViewerJS/build/WebODF-build/programs/editor/dojo-deps/src/dojo/dojo.js load=build --require C:/git/ViewerJS/build/WebODF-build/programs/editor/dojo-deps/src/app/run.js --profile C:/git/ViewerJS/build/WebODF-build/programs/editor/dojo-deps/profiles/app.profile.js --releaseDir C:/git/ViewerJS/build/WebODF-build/programs/editor/dojo-deps/dist
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory dojo/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy dojo-deps/dist/dojo/dojo.js dojo/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory dojo-deps/dist/dojo/resources/ dojo/resources/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory app/resources/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy dojo-deps/dist/app/resources/app.css app/resources/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory dijit/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory dijit/themes
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory dojo-deps/dist/dijit/themes/a11y/ dijit/themes/a11y/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory dojo-deps/dist/dijit/themes/claro/ dijit/themes/claro/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy dojo-deps/dist/dijit/themes/dijit.css dijit/themes/dijit.css
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy dojo-deps/dist/dijit/themes/dijit_rtl.css dijit/themes/dijit_rtl.css
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory dojo-deps/dist/dijit/icons/ dijit/icons/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory dojox/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory dojo-deps/dist/dojox/layout/resources/ dojox/layout/resources/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory dojo-deps/dist/dojox/widget/ColorPicker/ dojox/widget/ColorPicker/
+if %errorlevel% neq 0 goto :cmEnd
+..\..\NodeJS-prefix\bin\node.exe C:/git/ViewerJS/build/WebODF-source/webodf/tools/dojoNlsCompile.js dojo-deps/dist de fr nl it eu &gt; dojobundle.js
+if %errorlevel% neq 0 goto :cmEnd
+..\..\NodeJS-prefix\bin\node.exe C:/git/ViewerJS/build/WebODF-source/programs/editor/libexec/mergeIntoDojo.js dojobuild=C:/git/ViewerJS/build/WebODF-build/programs/editor/dojo-deps/dist/dojo/dojo.js dojobundle.js &gt; dojo-amalgamation.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/dojo-amalgamation.js.rule;C:\git\ViewerJS\build\WebODF-build\NodeJS-prefix\bin\node.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\dojo-amalgamation.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\0af0dce16f8f04680902af109c8ffb35\Tools.js.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating Tools.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/Tools.js C:/git/ViewerJS/build/WebODF-build/programs/editor/Tools.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/Tools.js.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\Tools.js;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\Tools.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating Tools.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/Tools.js C:/git/ViewerJS/build/WebODF-build/programs/editor/Tools.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/Tools.js.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\Tools.js;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\Tools.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating Tools.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/Tools.js C:/git/ViewerJS/build/WebODF-build/programs/editor/Tools.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/Tools.js.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\Tools.js;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\Tools.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating Tools.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/Tools.js C:/git/ViewerJS/build/WebODF-build/programs/editor/Tools.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/Tools.js.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\Tools.js;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\Tools.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\0af0dce16f8f04680902af109c8ffb35\avatar-joe.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating avatar-joe.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/avatar-joe.png C:/git/ViewerJS/build/WebODF-build/programs/editor/avatar-joe.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/avatar-joe.png.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\avatar-joe.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\avatar-joe.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating avatar-joe.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/avatar-joe.png C:/git/ViewerJS/build/WebODF-build/programs/editor/avatar-joe.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/avatar-joe.png.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\avatar-joe.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\avatar-joe.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating avatar-joe.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/avatar-joe.png C:/git/ViewerJS/build/WebODF-build/programs/editor/avatar-joe.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/avatar-joe.png.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\avatar-joe.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\avatar-joe.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating avatar-joe.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/avatar-joe.png C:/git/ViewerJS/build/WebODF-build/programs/editor/avatar-joe.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/avatar-joe.png.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\avatar-joe.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\avatar-joe.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\0af0dce16f8f04680902af109c8ffb35\EditorSession.js.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating EditorSession.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/EditorSession.js C:/git/ViewerJS/build/WebODF-build/programs/editor/EditorSession.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/EditorSession.js.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\EditorSession.js;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\EditorSession.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating EditorSession.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/EditorSession.js C:/git/ViewerJS/build/WebODF-build/programs/editor/EditorSession.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/EditorSession.js.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\EditorSession.js;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\EditorSession.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating EditorSession.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/EditorSession.js C:/git/ViewerJS/build/WebODF-build/programs/editor/EditorSession.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/EditorSession.js.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\EditorSession.js;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\EditorSession.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating EditorSession.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/EditorSession.js C:/git/ViewerJS/build/WebODF-build/programs/editor/EditorSession.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/EditorSession.js.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\EditorSession.js;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\EditorSession.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\0af0dce16f8f04680902af109c8ffb35\Translator.js.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating Translator.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/Translator.js C:/git/ViewerJS/build/WebODF-build/programs/editor/Translator.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/Translator.js.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\Translator.js;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\Translator.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating Translator.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/Translator.js C:/git/ViewerJS/build/WebODF-build/programs/editor/Translator.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/Translator.js.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\Translator.js;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\Translator.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating Translator.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/Translator.js C:/git/ViewerJS/build/WebODF-build/programs/editor/Translator.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/Translator.js.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\Translator.js;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\Translator.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating Translator.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/Translator.js C:/git/ViewerJS/build/WebODF-build/programs/editor/Translator.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/Translator.js.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\Translator.js;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\Translator.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\0af0dce16f8f04680902af109c8ffb35\FullWindowZoomHelper.js.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating FullWindowZoomHelper.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/FullWindowZoomHelper.js C:/git/ViewerJS/build/WebODF-build/programs/editor/FullWindowZoomHelper.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/FullWindowZoomHelper.js.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\FullWindowZoomHelper.js;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\FullWindowZoomHelper.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating FullWindowZoomHelper.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/FullWindowZoomHelper.js C:/git/ViewerJS/build/WebODF-build/programs/editor/FullWindowZoomHelper.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/FullWindowZoomHelper.js.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\FullWindowZoomHelper.js;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\FullWindowZoomHelper.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating FullWindowZoomHelper.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/FullWindowZoomHelper.js C:/git/ViewerJS/build/WebODF-build/programs/editor/FullWindowZoomHelper.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/FullWindowZoomHelper.js.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\FullWindowZoomHelper.js;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\FullWindowZoomHelper.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating FullWindowZoomHelper.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/FullWindowZoomHelper.js C:/git/ViewerJS/build/WebODF-build/programs/editor/FullWindowZoomHelper.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/FullWindowZoomHelper.js.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\FullWindowZoomHelper.js;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\FullWindowZoomHelper.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\0af0dce16f8f04680902af109c8ffb35\wodotexteditor.css.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating wodotexteditor.css</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/wodotexteditor.css C:/git/ViewerJS/build/WebODF-build/programs/editor/wodotexteditor.css
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/wodotexteditor.css.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\wodotexteditor.css;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\wodotexteditor.css</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating wodotexteditor.css</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/wodotexteditor.css C:/git/ViewerJS/build/WebODF-build/programs/editor/wodotexteditor.css
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/wodotexteditor.css.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\wodotexteditor.css;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\wodotexteditor.css</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating wodotexteditor.css</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/wodotexteditor.css C:/git/ViewerJS/build/WebODF-build/programs/editor/wodotexteditor.css
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/wodotexteditor.css.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\wodotexteditor.css;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\wodotexteditor.css</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating wodotexteditor.css</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/wodotexteditor.css C:/git/ViewerJS/build/WebODF-build/programs/editor/wodotexteditor.css
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/wodotexteditor.css.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\wodotexteditor.css;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\wodotexteditor.css</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\0af0dce16f8f04680902af109c8ffb35\SessionListView.js.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating SessionListView.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/SessionListView.js C:/git/ViewerJS/build/WebODF-build/programs/editor/SessionListView.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/SessionListView.js.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\SessionListView.js;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\SessionListView.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating SessionListView.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/SessionListView.js C:/git/ViewerJS/build/WebODF-build/programs/editor/SessionListView.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/SessionListView.js.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\SessionListView.js;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\SessionListView.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating SessionListView.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/SessionListView.js C:/git/ViewerJS/build/WebODF-build/programs/editor/SessionListView.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/SessionListView.js.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\SessionListView.js;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\SessionListView.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating SessionListView.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/SessionListView.js C:/git/ViewerJS/build/WebODF-build/programs/editor/SessionListView.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/SessionListView.js.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\SessionListView.js;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\SessionListView.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\0af0dce16f8f04680902af109c8ffb35\MemberListView.js.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating MemberListView.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/MemberListView.js C:/git/ViewerJS/build/WebODF-build/programs/editor/MemberListView.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/MemberListView.js.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\MemberListView.js;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\MemberListView.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating MemberListView.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/MemberListView.js C:/git/ViewerJS/build/WebODF-build/programs/editor/MemberListView.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/MemberListView.js.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\MemberListView.js;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\MemberListView.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating MemberListView.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/MemberListView.js C:/git/ViewerJS/build/WebODF-build/programs/editor/MemberListView.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/MemberListView.js.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\MemberListView.js;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\MemberListView.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating MemberListView.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/MemberListView.js C:/git/ViewerJS/build/WebODF-build/programs/editor/MemberListView.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/MemberListView.js.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\MemberListView.js;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\MemberListView.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\0af0dce16f8f04680902af109c8ffb35\wodocollabpane.css.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating wodocollabpane.css</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/wodocollabpane.css C:/git/ViewerJS/build/WebODF-build/programs/editor/wodocollabpane.css
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/wodocollabpane.css.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\wodocollabpane.css;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\wodocollabpane.css</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating wodocollabpane.css</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/wodocollabpane.css C:/git/ViewerJS/build/WebODF-build/programs/editor/wodocollabpane.css
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/wodocollabpane.css.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\wodocollabpane.css;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\wodocollabpane.css</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating wodocollabpane.css</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/wodocollabpane.css C:/git/ViewerJS/build/WebODF-build/programs/editor/wodocollabpane.css
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/wodocollabpane.css.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\wodocollabpane.css;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\wodocollabpane.css</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating wodocollabpane.css</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/wodocollabpane.css C:/git/ViewerJS/build/WebODF-build/programs/editor/wodocollabpane.css
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/wodocollabpane.css.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\wodocollabpane.css;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\wodocollabpane.css</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\0af0dce16f8f04680902af109c8ffb35\wodocollabtexteditor.js.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating wodocollabtexteditor.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/wodocollabtexteditor.js C:/git/ViewerJS/build/WebODF-build/programs/editor/wodocollabtexteditor.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/wodocollabtexteditor.js.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\wodocollabtexteditor.js;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\wodocollabtexteditor.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating wodocollabtexteditor.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/wodocollabtexteditor.js C:/git/ViewerJS/build/WebODF-build/programs/editor/wodocollabtexteditor.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/wodocollabtexteditor.js.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\wodocollabtexteditor.js;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\wodocollabtexteditor.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating wodocollabtexteditor.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/wodocollabtexteditor.js C:/git/ViewerJS/build/WebODF-build/programs/editor/wodocollabtexteditor.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/wodocollabtexteditor.js.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\wodocollabtexteditor.js;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\wodocollabtexteditor.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating wodocollabtexteditor.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/wodocollabtexteditor.js C:/git/ViewerJS/build/WebODF-build/programs/editor/wodocollabtexteditor.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/wodocollabtexteditor.js.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\wodocollabtexteditor.js;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\wodocollabtexteditor.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\0af0dce16f8f04680902af109c8ffb35\splitscreeneditor.css.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating splitscreeneditor.css</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/splitscreeneditor.css C:/git/ViewerJS/build/WebODF-build/programs/editor/splitscreeneditor.css
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/splitscreeneditor.css.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\splitscreeneditor.css;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\splitscreeneditor.css</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating splitscreeneditor.css</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/splitscreeneditor.css C:/git/ViewerJS/build/WebODF-build/programs/editor/splitscreeneditor.css
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/splitscreeneditor.css.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\splitscreeneditor.css;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\splitscreeneditor.css</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating splitscreeneditor.css</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/splitscreeneditor.css C:/git/ViewerJS/build/WebODF-build/programs/editor/splitscreeneditor.css
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/splitscreeneditor.css.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\splitscreeneditor.css;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\splitscreeneditor.css</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating splitscreeneditor.css</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/splitscreeneditor.css C:/git/ViewerJS/build/WebODF-build/programs/editor/splitscreeneditor.css
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/splitscreeneditor.css.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\splitscreeneditor.css;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\splitscreeneditor.css</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\0af0dce16f8f04680902af109c8ffb35\splitscreeneditor.js.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating splitscreeneditor.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/splitscreeneditor.js C:/git/ViewerJS/build/WebODF-build/programs/editor/splitscreeneditor.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/splitscreeneditor.js.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\splitscreeneditor.js;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\splitscreeneditor.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating splitscreeneditor.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/splitscreeneditor.js C:/git/ViewerJS/build/WebODF-build/programs/editor/splitscreeneditor.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/splitscreeneditor.js.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\splitscreeneditor.js;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\splitscreeneditor.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating splitscreeneditor.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/splitscreeneditor.js C:/git/ViewerJS/build/WebODF-build/programs/editor/splitscreeneditor.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/splitscreeneditor.js.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\splitscreeneditor.js;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\splitscreeneditor.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating splitscreeneditor.js</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/splitscreeneditor.js C:/git/ViewerJS/build/WebODF-build/programs/editor/splitscreeneditor.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/splitscreeneditor.js.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\splitscreeneditor.js;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\splitscreeneditor.js</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\0af0dce16f8f04680902af109c8ffb35\splitscreeneditor.html.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating splitscreeneditor.html</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/splitscreeneditor.html C:/git/ViewerJS/build/WebODF-build/programs/editor/splitscreeneditor.html
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/splitscreeneditor.html.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\splitscreeneditor.html;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\splitscreeneditor.html</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating splitscreeneditor.html</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/splitscreeneditor.html C:/git/ViewerJS/build/WebODF-build/programs/editor/splitscreeneditor.html
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/splitscreeneditor.html.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\splitscreeneditor.html;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\splitscreeneditor.html</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating splitscreeneditor.html</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/splitscreeneditor.html C:/git/ViewerJS/build/WebODF-build/programs/editor/splitscreeneditor.html
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/splitscreeneditor.html.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\splitscreeneditor.html;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\splitscreeneditor.html</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating splitscreeneditor.html</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/splitscreeneditor.html C:/git/ViewerJS/build/WebODF-build/programs/editor/splitscreeneditor.html
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/splitscreeneditor.html.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\splitscreeneditor.html;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\splitscreeneditor.html</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\0af0dce16f8f04680902af109c8ffb35\welcome.odt.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating welcome.odt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/welcome.odt C:/git/ViewerJS/build/WebODF-build/programs/editor/welcome.odt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/welcome.odt.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\welcome.odt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\welcome.odt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating welcome.odt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/welcome.odt C:/git/ViewerJS/build/WebODF-build/programs/editor/welcome.odt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/welcome.odt.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\welcome.odt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\welcome.odt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating welcome.odt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/welcome.odt C:/git/ViewerJS/build/WebODF-build/programs/editor/welcome.odt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/welcome.odt.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\welcome.odt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\welcome.odt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating welcome.odt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/welcome.odt C:/git/ViewerJS/build/WebODF-build/programs/editor/welcome.odt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/welcome.odt.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\welcome.odt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\welcome.odt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\0af0dce16f8f04680902af109c8ffb35\avatar-peggy.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating avatar-peggy.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/avatar-peggy.png C:/git/ViewerJS/build/WebODF-build/programs/editor/avatar-peggy.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/avatar-peggy.png.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\avatar-peggy.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\avatar-peggy.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating avatar-peggy.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/avatar-peggy.png C:/git/ViewerJS/build/WebODF-build/programs/editor/avatar-peggy.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/avatar-peggy.png.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\avatar-peggy.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\avatar-peggy.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating avatar-peggy.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/avatar-peggy.png C:/git/ViewerJS/build/WebODF-build/programs/editor/avatar-peggy.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/avatar-peggy.png.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\avatar-peggy.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\avatar-peggy.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating avatar-peggy.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/avatar-peggy.png C:/git/ViewerJS/build/WebODF-build/programs/editor/avatar-peggy.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/avatar-peggy.png.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\avatar-peggy.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\avatar-peggy.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\0af0dce16f8f04680902af109c8ffb35\document-save.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating document-save.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/document-save.png C:/git/ViewerJS/build/WebODF-build/programs/editor/document-save.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/document-save.png.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\document-save.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\document-save.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating document-save.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/document-save.png C:/git/ViewerJS/build/WebODF-build/programs/editor/document-save.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/document-save.png.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\document-save.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\document-save.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating document-save.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/document-save.png C:/git/ViewerJS/build/WebODF-build/programs/editor/document-save.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/document-save.png.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\document-save.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\document-save.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating document-save.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/document-save.png C:/git/ViewerJS/build/WebODF-build/programs/editor/document-save.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/document-save.png.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\document-save.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\document-save.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\0af0dce16f8f04680902af109c8ffb35\network-disconnect.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating network-disconnect.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/network-disconnect.png C:/git/ViewerJS/build/WebODF-build/programs/editor/network-disconnect.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/network-disconnect.png.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\network-disconnect.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\network-disconnect.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating network-disconnect.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/network-disconnect.png C:/git/ViewerJS/build/WebODF-build/programs/editor/network-disconnect.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/network-disconnect.png.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\network-disconnect.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\network-disconnect.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating network-disconnect.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/network-disconnect.png C:/git/ViewerJS/build/WebODF-build/programs/editor/network-disconnect.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/network-disconnect.png.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\network-disconnect.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\network-disconnect.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating network-disconnect.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/network-disconnect.png C:/git/ViewerJS/build/WebODF-build/programs/editor/network-disconnect.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/network-disconnect.png.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\network-disconnect.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\network-disconnect.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\0af0dce16f8f04680902af109c8ffb35\vcs-locally-modified.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating vcs-locally-modified.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/vcs-locally-modified.png C:/git/ViewerJS/build/WebODF-build/programs/editor/vcs-locally-modified.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/vcs-locally-modified.png.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\vcs-locally-modified.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\vcs-locally-modified.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating vcs-locally-modified.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/vcs-locally-modified.png C:/git/ViewerJS/build/WebODF-build/programs/editor/vcs-locally-modified.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/vcs-locally-modified.png.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\vcs-locally-modified.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\vcs-locally-modified.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating vcs-locally-modified.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/vcs-locally-modified.png C:/git/ViewerJS/build/WebODF-build/programs/editor/vcs-locally-modified.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/vcs-locally-modified.png.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\vcs-locally-modified.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\vcs-locally-modified.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating vcs-locally-modified.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/git/ViewerJS/build/WebODF-source/programs/editor/vcs-locally-modified.png C:/git/ViewerJS/build/WebODF-build/programs/editor/vcs-locally-modified.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/0af0dce16f8f04680902af109c8ffb35/vcs-locally-modified.png.rule;C:\git\ViewerJS\build\WebODF-source\programs\editor\vcs-locally-modified.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\vcs-locally-modified.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\ViewerJS\build\WebODF-build\CMakeFiles\f47ebef86afaf6a62cd1d3bc06af5c85\splitscreeneditor.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/f47ebef86afaf6a62cd1d3bc06af5c85/splitscreeneditor.rule;C:\git\ViewerJS\build\WebODF-build\programs\editor\dojo-amalgamation.js;C:\git\ViewerJS\build\WebODF-build\programs\editor\Tools.js;C:\git\ViewerJS\build\WebODF-build\programs\editor\avatar-joe.png;C:\git\ViewerJS\build\WebODF-build\programs\editor\EditorSession.js;C:\git\ViewerJS\build\WebODF-build\programs\editor\Translator.js;C:\git\ViewerJS\build\WebODF-build\programs\editor\FullWindowZoomHelper.js;C:\git\ViewerJS\build\WebODF-build\programs\editor\wodotexteditor.css;C:\git\ViewerJS\build\WebODF-build\programs\editor\SessionListView.js;C:\git\ViewerJS\build\WebODF-build\programs\editor\MemberListView.js;C:\git\ViewerJS\build\WebODF-build\programs\editor\wodocollabpane.css;C:\git\ViewerJS\build\WebODF-build\programs\editor\wodocollabtexteditor.js;C:\git\ViewerJS\build\WebODF-build\programs\editor\splitscreeneditor.css;C:\git\ViewerJS\build\WebODF-build\programs\editor\splitscreeneditor.js;C:\git\ViewerJS\build\WebODF-build\programs\editor\splitscreeneditor.html;C:\git\ViewerJS\build\WebODF-build\programs\editor\welcome.odt;C:\git\ViewerJS\build\WebODF-build\programs\editor\avatar-peggy.png;C:\git\ViewerJS\build\WebODF-build\programs\editor\document-save.png;C:\git\ViewerJS\build\WebODF-build\programs\editor\network-disconnect.png;C:\git\ViewerJS\build\WebODF-build\programs\editor\vcs-locally-modified.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\CMakeFiles\splitscreeneditor</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/f47ebef86afaf6a62cd1d3bc06af5c85/splitscreeneditor.rule;C:\git\ViewerJS\build\WebODF-build\programs\editor\dojo-amalgamation.js;C:\git\ViewerJS\build\WebODF-build\programs\editor\Tools.js;C:\git\ViewerJS\build\WebODF-build\programs\editor\avatar-joe.png;C:\git\ViewerJS\build\WebODF-build\programs\editor\EditorSession.js;C:\git\ViewerJS\build\WebODF-build\programs\editor\Translator.js;C:\git\ViewerJS\build\WebODF-build\programs\editor\FullWindowZoomHelper.js;C:\git\ViewerJS\build\WebODF-build\programs\editor\wodotexteditor.css;C:\git\ViewerJS\build\WebODF-build\programs\editor\SessionListView.js;C:\git\ViewerJS\build\WebODF-build\programs\editor\MemberListView.js;C:\git\ViewerJS\build\WebODF-build\programs\editor\wodocollabpane.css;C:\git\ViewerJS\build\WebODF-build\programs\editor\wodocollabtexteditor.js;C:\git\ViewerJS\build\WebODF-build\programs\editor\splitscreeneditor.css;C:\git\ViewerJS\build\WebODF-build\programs\editor\splitscreeneditor.js;C:\git\ViewerJS\build\WebODF-build\programs\editor\splitscreeneditor.html;C:\git\ViewerJS\build\WebODF-build\programs\editor\welcome.odt;C:\git\ViewerJS\build\WebODF-build\programs\editor\avatar-peggy.png;C:\git\ViewerJS\build\WebODF-build\programs\editor\document-save.png;C:\git\ViewerJS\build\WebODF-build\programs\editor\network-disconnect.png;C:\git\ViewerJS\build\WebODF-build\programs\editor\vcs-locally-modified.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\CMakeFiles\splitscreeneditor</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/f47ebef86afaf6a62cd1d3bc06af5c85/splitscreeneditor.rule;C:\git\ViewerJS\build\WebODF-build\programs\editor\dojo-amalgamation.js;C:\git\ViewerJS\build\WebODF-build\programs\editor\Tools.js;C:\git\ViewerJS\build\WebODF-build\programs\editor\avatar-joe.png;C:\git\ViewerJS\build\WebODF-build\programs\editor\EditorSession.js;C:\git\ViewerJS\build\WebODF-build\programs\editor\Translator.js;C:\git\ViewerJS\build\WebODF-build\programs\editor\FullWindowZoomHelper.js;C:\git\ViewerJS\build\WebODF-build\programs\editor\wodotexteditor.css;C:\git\ViewerJS\build\WebODF-build\programs\editor\SessionListView.js;C:\git\ViewerJS\build\WebODF-build\programs\editor\MemberListView.js;C:\git\ViewerJS\build\WebODF-build\programs\editor\wodocollabpane.css;C:\git\ViewerJS\build\WebODF-build\programs\editor\wodocollabtexteditor.js;C:\git\ViewerJS\build\WebODF-build\programs\editor\splitscreeneditor.css;C:\git\ViewerJS\build\WebODF-build\programs\editor\splitscreeneditor.js;C:\git\ViewerJS\build\WebODF-build\programs\editor\splitscreeneditor.html;C:\git\ViewerJS\build\WebODF-build\programs\editor\welcome.odt;C:\git\ViewerJS\build\WebODF-build\programs\editor\avatar-peggy.png;C:\git\ViewerJS\build\WebODF-build\programs\editor\document-save.png;C:\git\ViewerJS\build\WebODF-build\programs\editor\network-disconnect.png;C:\git\ViewerJS\build\WebODF-build\programs\editor\vcs-locally-modified.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\CMakeFiles\splitscreeneditor</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/ViewerJS/build/WebODF-build/CMakeFiles/f47ebef86afaf6a62cd1d3bc06af5c85/splitscreeneditor.rule;C:\git\ViewerJS\build\WebODF-build\programs\editor\dojo-amalgamation.js;C:\git\ViewerJS\build\WebODF-build\programs\editor\Tools.js;C:\git\ViewerJS\build\WebODF-build\programs\editor\avatar-joe.png;C:\git\ViewerJS\build\WebODF-build\programs\editor\EditorSession.js;C:\git\ViewerJS\build\WebODF-build\programs\editor\Translator.js;C:\git\ViewerJS\build\WebODF-build\programs\editor\FullWindowZoomHelper.js;C:\git\ViewerJS\build\WebODF-build\programs\editor\wodotexteditor.css;C:\git\ViewerJS\build\WebODF-build\programs\editor\SessionListView.js;C:\git\ViewerJS\build\WebODF-build\programs\editor\MemberListView.js;C:\git\ViewerJS\build\WebODF-build\programs\editor\wodocollabpane.css;C:\git\ViewerJS\build\WebODF-build\programs\editor\wodocollabtexteditor.js;C:\git\ViewerJS\build\WebODF-build\programs\editor\splitscreeneditor.css;C:\git\ViewerJS\build\WebODF-build\programs\editor\splitscreeneditor.js;C:\git\ViewerJS\build\WebODF-build\programs\editor\splitscreeneditor.html;C:\git\ViewerJS\build\WebODF-build\programs\editor\welcome.odt;C:\git\ViewerJS\build\WebODF-build\programs\editor\avatar-peggy.png;C:\git\ViewerJS\build\WebODF-build\programs\editor\document-save.png;C:\git\ViewerJS\build\WebODF-build\programs\editor\network-disconnect.png;C:\git\ViewerJS\build\WebODF-build\programs\editor\vcs-locally-modified.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\ViewerJS\build\WebODF-build\programs\editor\CMakeFiles\splitscreeneditor</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\git\ViewerJS\build\WebODF-build\programs\editor\CMakeFiles\splitscreeneditor" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/git/ViewerJS/build/WebODF-build/ZERO_CHECK.vcxproj">
+      <Project>6B663F78-CF36-386A-9F78-5AEA60B01A73</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/git/ViewerJS/build/WebODF-build/Dojo.vcxproj">
+      <Project>5704CB38-2E00-3ED3-9EB0-3B3B07713D78</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/git/ViewerJS/build/WebODF-build/programs/editor/editor-webodf.js-target.vcxproj">
+      <Project>6B229A57-05C3-3567-A077-3C90F0C5D819</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/git/ViewerJS/build/WebODF-build/programs/editor/more-common-editorfiles-target.vcxproj">
+      <Project>62E9DC52-04C4-3DF8-9421-79B53CF22235</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/git/ViewerJS/build/WebODF-build/programs/editor/server-collab-editorfiles-target.vcxproj">
+      <Project>32F76F35-17E0-3D91-A0F3-B2B86E103901</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

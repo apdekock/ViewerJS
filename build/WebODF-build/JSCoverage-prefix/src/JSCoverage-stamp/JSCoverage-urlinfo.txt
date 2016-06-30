@@ -1,0 +1,3 @@
+repository='external project URL'
+module='http://siliconforks.com/jscoverage/download/jscoverage-0.5.1-windows.zip'
+tag=''

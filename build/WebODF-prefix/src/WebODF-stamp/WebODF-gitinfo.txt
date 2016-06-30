@@ -1,0 +1,3 @@
+repository='https://github.com/kogmbh/WebODF.git'
+module=''
+tag=''

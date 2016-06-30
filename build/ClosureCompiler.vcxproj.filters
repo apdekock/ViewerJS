@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\git\ViewerJS\CMakeLists.txt" />
+    <CustomBuild Include="C:\git\ViewerJS\build\CMakeFiles\02a8a757a04d8c29e9cd00a69b5b9054\ClosureCompiler-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\CMakeFiles\02a8a757a04d8c29e9cd00a69b5b9054\ClosureCompiler-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\CMakeFiles\02a8a757a04d8c29e9cd00a69b5b9054\ClosureCompiler-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\CMakeFiles\02a8a757a04d8c29e9cd00a69b5b9054\ClosureCompiler-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\CMakeFiles\02a8a757a04d8c29e9cd00a69b5b9054\ClosureCompiler-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\CMakeFiles\02a8a757a04d8c29e9cd00a69b5b9054\ClosureCompiler-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\CMakeFiles\02a8a757a04d8c29e9cd00a69b5b9054\ClosureCompiler-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\CMakeFiles\0f77f53cfc99da81619a12d549fbcb48\ClosureCompiler-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\ViewerJS\build\CMakeFiles\a3ffdeebbdacf4d824328d0c3686d394\ClosureCompiler.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\git\ViewerJS\build\CMakeFiles\ClosureCompiler" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{54B73030-2E07-3271-898F-51ECB20F22D0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

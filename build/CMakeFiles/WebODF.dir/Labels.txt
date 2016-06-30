@@ -1,0 +1,14 @@
+# Target labels
+ WebODF
+# Source files and their labels
+C:/git/ViewerJS/build/CMakeFiles/WebODF
+C:/git/ViewerJS/CMakeLists.txt
+C:/git/ViewerJS/build/CMakeFiles/a3ffdeebbdacf4d824328d0c3686d394/WebODF.rule
+C:/git/ViewerJS/build/CMakeFiles/0f77f53cfc99da81619a12d549fbcb48/WebODF-complete.rule
+C:/git/ViewerJS/build/CMakeFiles/b13cecad98d0f7662be7e0fa6300b83f/WebODF-install.rule
+C:/git/ViewerJS/build/CMakeFiles/b13cecad98d0f7662be7e0fa6300b83f/WebODF-mkdir.rule
+C:/git/ViewerJS/build/CMakeFiles/b13cecad98d0f7662be7e0fa6300b83f/WebODF-download.rule
+C:/git/ViewerJS/build/CMakeFiles/b13cecad98d0f7662be7e0fa6300b83f/WebODF-update.rule
+C:/git/ViewerJS/build/CMakeFiles/b13cecad98d0f7662be7e0fa6300b83f/WebODF-patch.rule
+C:/git/ViewerJS/build/CMakeFiles/b13cecad98d0f7662be7e0fa6300b83f/WebODF-configure.rule
+C:/git/ViewerJS/build/CMakeFiles/b13cecad98d0f7662be7e0fa6300b83f/WebODF-build.rule

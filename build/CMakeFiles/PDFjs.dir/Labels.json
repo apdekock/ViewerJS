@@ -1,0 +1,55 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "C:/git/ViewerJS/build/CMakeFiles/PDFjs"
+		},
+		
+		{
+			"file" : "C:/git/ViewerJS/CMakeLists.txt"
+		},
+		
+		{
+			"file" : "C:/git/ViewerJS/build/CMakeFiles/a3ffdeebbdacf4d824328d0c3686d394/PDFjs.rule"
+		},
+		
+		{
+			"file" : "C:/git/ViewerJS/build/CMakeFiles/0f77f53cfc99da81619a12d549fbcb48/PDFjs-complete.rule"
+		},
+		
+		{
+			"file" : "C:/git/ViewerJS/build/CMakeFiles/5af26122464fc6580d3e5629ef1ec7b3/PDFjs-install.rule"
+		},
+		
+		{
+			"file" : "C:/git/ViewerJS/build/CMakeFiles/5af26122464fc6580d3e5629ef1ec7b3/PDFjs-mkdir.rule"
+		},
+		
+		{
+			"file" : "C:/git/ViewerJS/build/CMakeFiles/5af26122464fc6580d3e5629ef1ec7b3/PDFjs-download.rule"
+		},
+		
+		{
+			"file" : "C:/git/ViewerJS/build/CMakeFiles/5af26122464fc6580d3e5629ef1ec7b3/PDFjs-update.rule"
+		},
+		
+		{
+			"file" : "C:/git/ViewerJS/build/CMakeFiles/5af26122464fc6580d3e5629ef1ec7b3/PDFjs-patch.rule"
+		},
+		
+		{
+			"file" : "C:/git/ViewerJS/build/CMakeFiles/5af26122464fc6580d3e5629ef1ec7b3/PDFjs-configure.rule"
+		},
+		
+		{
+			"file" : "C:/git/ViewerJS/build/CMakeFiles/5af26122464fc6580d3e5629ef1ec7b3/PDFjs-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "PDFjs" ],
+		"name" : "PDFjs"
+	}
+}
