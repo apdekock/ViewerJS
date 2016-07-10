@@ -43,7 +43,7 @@
  */
 
 /*global document, window*/
-
+var onRendered;
 function Viewer(viewerPlugin, parameters) {
     "use strict";
 
@@ -186,7 +186,22 @@ function Viewer(viewerPlugin, parameters) {
         if (viewerPlugin.getPageInView) {
             pageNumber = viewerPlugin.getPageInView();
             if (pageNumber) {
-                currentPage = pageNumber;
+				if (currentPage != pageNumber)
+				{
+					try
+					{
+						pageChanged(pageNumber);
+					}
+					catch (e)
+					{
+						console.log(e);
+					}					
+				}
+				else
+				{
+					console.log(pageNumber);
+				}
+				currentPage = pageNumber;
                 document.getElementById('pageNumber').value = pageNumber;
             }
         }
@@ -308,7 +323,12 @@ function Viewer(viewerPlugin, parameters) {
 
         viewerPlugin.initialize(canvasContainer, url);
     };
-
+	var pageChanged;
+	onRendered = function(callback) {
+        pageChanged = callback;
+		console.log("Viewer registered.");
+    }
+    ;
     /**
      * Shows the 'n'th page. If n is larger than the page count,
      * shows the last page. If n is less than 1, shows the first page.
@@ -320,9 +340,16 @@ function Viewer(viewerPlugin, parameters) {
         } else if (n > pages.length) {
             n = pages.length;
         }
-
+		try
+		{
+			pageChanged(n);
+		}
+		catch (e)
+		{
+			console.log(e);
+		}	
         viewerPlugin.showPage(n);
-
+						
         currentPage = n;
         document.getElementById('pageNumber').value = currentPage;
     };
