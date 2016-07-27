@@ -44,6 +44,7 @@
 
 /*global document, window*/
 var onRendered;
+var showPageNumber;
 function Viewer(viewerPlugin, parameters) {
     "use strict";
 
@@ -177,6 +178,14 @@ function Viewer(viewerPlugin, parameters) {
         window.dispatchEvent(event);
     }
 
+	var pageChanged;
+	onRendered = function(callback) {
+        pageChanged = callback;
+		console.log("Viewer registered.");
+    }
+	showPageNumber = function(pageNumber) {
+		 self.showPage(pageNumber);
+	}
     function onScroll() {
         var pageNumber;
 
@@ -319,11 +328,6 @@ function Viewer(viewerPlugin, parameters) {
 
         viewerPlugin.initialize(canvasContainer, url);
     };
-	var pageChanged;
-	onRendered = function(callback) {
-        pageChanged = callback;
-		console.log("Viewer registered.");
-    }
     ;
     /**
      * Shows the 'n'th page. If n is larger than the page count,
