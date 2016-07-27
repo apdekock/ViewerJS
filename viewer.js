@@ -197,10 +197,6 @@ function Viewer(viewerPlugin, parameters) {
 						console.log(e);
 					}					
 				}
-				else
-				{
-					console.log(pageNumber);
-				}
 				currentPage = pageNumber;
                 document.getElementById('pageNumber').value = pageNumber;
             }

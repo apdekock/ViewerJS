@@ -1,3 +1,11 @@
-﻿  Performing build step for 'PDFjs'
+﻿  Building Custom Rule C:/git/ViewerJS/CMakeLists.txt
+  CMake does not need to re-run because C:\git\ViewerJS\build\CMakeFiles\generate.stamp is up-to-date.
+  Creating directories for 'PDFjs'
+  Performing download step (git clone) for 'PDFjs'
+  -- Avoiding repeated git clone, stamp file is up to date: 'C:/git/ViewerJS/build/PDFjs-prefix/src/PDFjs-stamp/PDFjs-gitclone-lastrun.txt'
+  No update step for 'PDFjs'
+  No patch step for 'PDFjs'
+  No configure step for 'PDFjs'
+  Performing build step for 'PDFjs'
   npm WARN package.json pdf.js@0.8.0 No license field.
   ShellJS is not installed. Run "npm install" to install all dependencies.

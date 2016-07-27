@@ -1,1 +1,55 @@
-﻿
+﻿  Building Custom Rule C:/git/ViewerJS/CMakeLists.txt
+  CMake does not need to re-run because C:\git\ViewerJS\build\CMakeFiles\generate.stamp is up-to-date.
+  Generating index.html
+  filtering [C:/git/ViewerJS/index-template.html] to [C:/git/ViewerJS/build/index.html]
+  replacing [@VIEWERJSLICENSE_START@-@VIEWERJSLICENSE_END@] with contents of [C:/git/ViewerJS/HeaderCompiled.html].
+  replacing [@VIEWERJS_START@-@VIEWERJS_END@] with contents of [C:/git/ViewerJS/build/viewer.min.js].
+  Creating ViewerJS directory
+  Creating viewerjs-0.5.9.zip
+  Loading manifest: C:/git/ViewerJS/build/WebODF-source/webodf/tools/manifest.json
+  No loadable manifest found.
+  Loading manifest: C:\git\ViewerJS\build\WebODF-source\webodf\lib/manifest.json
+  viewerjs-0.5.9\AGPL-3.0.txt,viewerjs-0.5.9\ViewerJS\compatibility.js,viewerjs-0.5.9\ViewerJS\example.local.css,viewerjs-0.5.9\ViewerJS\images\kogmbh.png,viewerjs-0.5.9\ViewerJS\images\nlnet.png,viewerjs-0.5.9\ViewerJS\images\texture.png,viewerjs-0.5.9\ViewerJS\images\toolbarButton-download.png,viewerjs-0.5.9\ViewerJS\images\toolbarButton-fullscreen.png,viewerjs-0.5.9\ViewerJS\images\toolbarButton-menuArrows.png,viewerjs-0.5.9\ViewerJS\images\toolbarButton-pageDown.png,viewerjs-0.5.9\ViewerJS\images\toolbarButton-pageUp.png,viewerjs-0.5.9\ViewerJS\images\toolbarButton-presentation.png,viewerjs-0.5.9\ViewerJS\images\toolbarButton-zoomIn.png,viewerjs-0.5.9\ViewerJS\images\toolbarButton-zoomOut.png,viewerjs-0.5.9\ViewerJS\index.html,viewerjs-0.5.9\ViewerJS\pdf.js,viewerjs-0.5.9\ViewerJS\pdf.worker.js,viewerjs-0.5.9\ViewerJS\pdfjsversion.js,viewerjs-0.5.9\ViewerJS\text_layer_builder.js,viewerjs-0.5.9\ViewerJS\ui_utils.js,viewerjs-0.5.9\ViewerJS\webodf.js
+  C:\git\ViewerJS\build\viewerjs-0.5.9\AGPL-3.0.txt
+  [C:/git/ViewerJS/build/viewerjs-0.5.9.zip] << "viewerjs-0.5.9\AGPL-3.0.txt"
+  C:\git\ViewerJS\build\viewerjs-0.5.9\ViewerJS\compatibility.js
+  [C:/git/ViewerJS/build/viewerjs-0.5.9.zip] << "viewerjs-0.5.9\ViewerJS\compatibility.js"
+  C:\git\ViewerJS\build\viewerjs-0.5.9\ViewerJS\example.local.css
+  [C:/git/ViewerJS/build/viewerjs-0.5.9.zip] << "viewerjs-0.5.9\ViewerJS\example.local.css"
+  C:\git\ViewerJS\build\viewerjs-0.5.9\ViewerJS\images\kogmbh.png
+  [C:/git/ViewerJS/build/viewerjs-0.5.9.zip] << "viewerjs-0.5.9\ViewerJS\images\kogmbh.png"
+  C:\git\ViewerJS\build\viewerjs-0.5.9\ViewerJS\images\nlnet.png
+  [C:/git/ViewerJS/build/viewerjs-0.5.9.zip] << "viewerjs-0.5.9\ViewerJS\images\nlnet.png"
+  C:\git\ViewerJS\build\viewerjs-0.5.9\ViewerJS\images\texture.png
+  [C:/git/ViewerJS/build/viewerjs-0.5.9.zip] << "viewerjs-0.5.9\ViewerJS\images\texture.png"
+  C:\git\ViewerJS\build\viewerjs-0.5.9\ViewerJS\images\toolbarButton-download.png
+  [C:/git/ViewerJS/build/viewerjs-0.5.9.zip] << "viewerjs-0.5.9\ViewerJS\images\toolbarButton-download.png"
+  C:\git\ViewerJS\build\viewerjs-0.5.9\ViewerJS\images\toolbarButton-fullscreen.png
+  [C:/git/ViewerJS/build/viewerjs-0.5.9.zip] << "viewerjs-0.5.9\ViewerJS\images\toolbarButton-fullscreen.png"
+  C:\git\ViewerJS\build\viewerjs-0.5.9\ViewerJS\images\toolbarButton-menuArrows.png
+  [C:/git/ViewerJS/build/viewerjs-0.5.9.zip] << "viewerjs-0.5.9\ViewerJS\images\toolbarButton-menuArrows.png"
+  C:\git\ViewerJS\build\viewerjs-0.5.9\ViewerJS\images\toolbarButton-pageDown.png
+  [C:/git/ViewerJS/build/viewerjs-0.5.9.zip] << "viewerjs-0.5.9\ViewerJS\images\toolbarButton-pageDown.png"
+  C:\git\ViewerJS\build\viewerjs-0.5.9\ViewerJS\images\toolbarButton-pageUp.png
+  [C:/git/ViewerJS/build/viewerjs-0.5.9.zip] << "viewerjs-0.5.9\ViewerJS\images\toolbarButton-pageUp.png"
+  C:\git\ViewerJS\build\viewerjs-0.5.9\ViewerJS\images\toolbarButton-presentation.png
+  [C:/git/ViewerJS/build/viewerjs-0.5.9.zip] << "viewerjs-0.5.9\ViewerJS\images\toolbarButton-presentation.png"
+  C:\git\ViewerJS\build\viewerjs-0.5.9\ViewerJS\images\toolbarButton-zoomIn.png
+  [C:/git/ViewerJS/build/viewerjs-0.5.9.zip] << "viewerjs-0.5.9\ViewerJS\images\toolbarButton-zoomIn.png"
+  C:\git\ViewerJS\build\viewerjs-0.5.9\ViewerJS\images\toolbarButton-zoomOut.png
+  [C:/git/ViewerJS/build/viewerjs-0.5.9.zip] << "viewerjs-0.5.9\ViewerJS\images\toolbarButton-zoomOut.png"
+  C:\git\ViewerJS\build\viewerjs-0.5.9\ViewerJS\index.html
+  [C:/git/ViewerJS/build/viewerjs-0.5.9.zip] << "viewerjs-0.5.9\ViewerJS\index.html"
+  C:\git\ViewerJS\build\viewerjs-0.5.9\ViewerJS\pdf.js
+  [C:/git/ViewerJS/build/viewerjs-0.5.9.zip] << "viewerjs-0.5.9\ViewerJS\pdf.js"
+  C:\git\ViewerJS\build\viewerjs-0.5.9\ViewerJS\pdf.worker.js
+  [C:/git/ViewerJS/build/viewerjs-0.5.9.zip] << "viewerjs-0.5.9\ViewerJS\pdf.worker.js"
+  C:\git\ViewerJS\build\viewerjs-0.5.9\ViewerJS\pdfjsversion.js
+  [C:/git/ViewerJS/build/viewerjs-0.5.9.zip] << "viewerjs-0.5.9\ViewerJS\pdfjsversion.js"
+  C:\git\ViewerJS\build\viewerjs-0.5.9\ViewerJS\text_layer_builder.js
+  [C:/git/ViewerJS/build/viewerjs-0.5.9.zip] << "viewerjs-0.5.9\ViewerJS\text_layer_builder.js"
+  C:\git\ViewerJS\build\viewerjs-0.5.9\ViewerJS\ui_utils.js
+  [C:/git/ViewerJS/build/viewerjs-0.5.9.zip] << "viewerjs-0.5.9\ViewerJS\ui_utils.js"
+  C:\git\ViewerJS\build\viewerjs-0.5.9\ViewerJS\webodf.js
+  [C:/git/ViewerJS/build/viewerjs-0.5.9.zip] << "viewerjs-0.5.9\ViewerJS\webodf.js"
+  Created C:/git/ViewerJS/build/viewerjs-0.5.9.zip

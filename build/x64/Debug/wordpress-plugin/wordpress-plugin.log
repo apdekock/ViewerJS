@@ -1,1 +1,57 @@
-﻿
+﻿  Building Custom Rule C:/git/ViewerJS/CMakeLists.txt
+  CMake does not need to re-run because C:\git\ViewerJS\build\CMakeFiles\generate.stamp is up-to-date.
+  Generating index.html
+  filtering [C:/git/ViewerJS/index-template.html] to [C:/git/ViewerJS/build/index.html]
+  replacing [@VIEWERJSLICENSE_START@-@VIEWERJSLICENSE_END@] with contents of [C:/git/ViewerJS/HeaderCompiled.html].
+  replacing [@VIEWERJS_START@-@VIEWERJS_END@] with contents of [C:/git/ViewerJS/build/viewer.min.js].
+  Creating ViewerJS directory
+  Creating viewerjs-wordpress-0.5.9.zip
+  Loading manifest: C:/git/ViewerJS/build/WebODF-source/webodf/tools/manifest.json
+  No loadable manifest found.
+  Loading manifest: C:\git\ViewerJS\build\WebODF-source\webodf\lib/manifest.json
+  viewerjs-wordpress-0.5.9\compatibility.js,viewerjs-wordpress-0.5.9\example.local.css,viewerjs-wordpress-0.5.9\images\kogmbh.png,viewerjs-wordpress-0.5.9\images\nlnet.png,viewerjs-wordpress-0.5.9\images\texture.png,viewerjs-wordpress-0.5.9\images\toolbarButton-download.png,viewerjs-wordpress-0.5.9\images\toolbarButton-fullscreen.png,viewerjs-wordpress-0.5.9\images\toolbarButton-menuArrows.png,viewerjs-wordpress-0.5.9\images\toolbarButton-pageDown.png,viewerjs-wordpress-0.5.9\images\toolbarButton-pageUp.png,viewerjs-wordpress-0.5.9\images\toolbarButton-presentation.png,viewerjs-wordpress-0.5.9\images\toolbarButton-zoomIn.png,viewerjs-wordpress-0.5.9\images\toolbarButton-zoomOut.png,viewerjs-wordpress-0.5.9\index.html,viewerjs-wordpress-0.5.9\pdf.js,viewerjs-wordpress-0.5.9\pdf.worker.js,viewerjs-wordpress-0.5.9\pdfjsversion.js,viewerjs-wordpress-0.5.9\text_layer_builder.js,viewerjs-wordpress-0.5.9\ui_utils.js,viewerjs-wordpress-0.5.9\viewerjs-plugin-README.txt,viewerjs-wordpress-0.5.9\viewerjs-plugin.php,viewerjs-wordpress-0.5.9\webodf.js
+  C:\git\ViewerJS\build\viewerjs-wordpress-0.5.9\compatibility.js
+  [C:/git/ViewerJS/build/viewerjs-wordpress-0.5.9.zip] << "viewerjs-wordpress-0.5.9\compatibility.js"
+  C:\git\ViewerJS\build\viewerjs-wordpress-0.5.9\example.local.css
+  [C:/git/ViewerJS/build/viewerjs-wordpress-0.5.9.zip] << "viewerjs-wordpress-0.5.9\example.local.css"
+  C:\git\ViewerJS\build\viewerjs-wordpress-0.5.9\images\kogmbh.png
+  [C:/git/ViewerJS/build/viewerjs-wordpress-0.5.9.zip] << "viewerjs-wordpress-0.5.9\images\kogmbh.png"
+  C:\git\ViewerJS\build\viewerjs-wordpress-0.5.9\images\nlnet.png
+  [C:/git/ViewerJS/build/viewerjs-wordpress-0.5.9.zip] << "viewerjs-wordpress-0.5.9\images\nlnet.png"
+  C:\git\ViewerJS\build\viewerjs-wordpress-0.5.9\images\texture.png
+  [C:/git/ViewerJS/build/viewerjs-wordpress-0.5.9.zip] << "viewerjs-wordpress-0.5.9\images\texture.png"
+  C:\git\ViewerJS\build\viewerjs-wordpress-0.5.9\images\toolbarButton-download.png
+  [C:/git/ViewerJS/build/viewerjs-wordpress-0.5.9.zip] << "viewerjs-wordpress-0.5.9\images\toolbarButton-download.png"
+  C:\git\ViewerJS\build\viewerjs-wordpress-0.5.9\images\toolbarButton-fullscreen.png
+  [C:/git/ViewerJS/build/viewerjs-wordpress-0.5.9.zip] << "viewerjs-wordpress-0.5.9\images\toolbarButton-fullscreen.png"
+  C:\git\ViewerJS\build\viewerjs-wordpress-0.5.9\images\toolbarButton-menuArrows.png
+  [C:/git/ViewerJS/build/viewerjs-wordpress-0.5.9.zip] << "viewerjs-wordpress-0.5.9\images\toolbarButton-menuArrows.png"
+  C:\git\ViewerJS\build\viewerjs-wordpress-0.5.9\images\toolbarButton-pageDown.png
+  [C:/git/ViewerJS/build/viewerjs-wordpress-0.5.9.zip] << "viewerjs-wordpress-0.5.9\images\toolbarButton-pageDown.png"
+  C:\git\ViewerJS\build\viewerjs-wordpress-0.5.9\images\toolbarButton-pageUp.png
+  [C:/git/ViewerJS/build/viewerjs-wordpress-0.5.9.zip] << "viewerjs-wordpress-0.5.9\images\toolbarButton-pageUp.png"
+  C:\git\ViewerJS\build\viewerjs-wordpress-0.5.9\images\toolbarButton-presentation.png
+  [C:/git/ViewerJS/build/viewerjs-wordpress-0.5.9.zip] << "viewerjs-wordpress-0.5.9\images\toolbarButton-presentation.png"
+  C:\git\ViewerJS\build\viewerjs-wordpress-0.5.9\images\toolbarButton-zoomIn.png
+  [C:/git/ViewerJS/build/viewerjs-wordpress-0.5.9.zip] << "viewerjs-wordpress-0.5.9\images\toolbarButton-zoomIn.png"
+  C:\git\ViewerJS\build\viewerjs-wordpress-0.5.9\images\toolbarButton-zoomOut.png
+  [C:/git/ViewerJS/build/viewerjs-wordpress-0.5.9.zip] << "viewerjs-wordpress-0.5.9\images\toolbarButton-zoomOut.png"
+  C:\git\ViewerJS\build\viewerjs-wordpress-0.5.9\index.html
+  [C:/git/ViewerJS/build/viewerjs-wordpress-0.5.9.zip] << "viewerjs-wordpress-0.5.9\index.html"
+  C:\git\ViewerJS\build\viewerjs-wordpress-0.5.9\pdf.js
+  [C:/git/ViewerJS/build/viewerjs-wordpress-0.5.9.zip] << "viewerjs-wordpress-0.5.9\pdf.js"
+  C:\git\ViewerJS\build\viewerjs-wordpress-0.5.9\pdf.worker.js
+  [C:/git/ViewerJS/build/viewerjs-wordpress-0.5.9.zip] << "viewerjs-wordpress-0.5.9\pdf.worker.js"
+  C:\git\ViewerJS\build\viewerjs-wordpress-0.5.9\pdfjsversion.js
+  [C:/git/ViewerJS/build/viewerjs-wordpress-0.5.9.zip] << "viewerjs-wordpress-0.5.9\pdfjsversion.js"
+  C:\git\ViewerJS\build\viewerjs-wordpress-0.5.9\text_layer_builder.js
+  [C:/git/ViewerJS/build/viewerjs-wordpress-0.5.9.zip] << "viewerjs-wordpress-0.5.9\text_layer_builder.js"
+  C:\git\ViewerJS\build\viewerjs-wordpress-0.5.9\ui_utils.js
+  [C:/git/ViewerJS/build/viewerjs-wordpress-0.5.9.zip] << "viewerjs-wordpress-0.5.9\ui_utils.js"
+  C:\git\ViewerJS\build\viewerjs-wordpress-0.5.9\viewerjs-plugin-README.txt
+  [C:/git/ViewerJS/build/viewerjs-wordpress-0.5.9.zip] << "viewerjs-wordpress-0.5.9\viewerjs-plugin-README.txt"
+  C:\git\ViewerJS\build\viewerjs-wordpress-0.5.9\viewerjs-plugin.php
+  [C:/git/ViewerJS/build/viewerjs-wordpress-0.5.9.zip] << "viewerjs-wordpress-0.5.9\viewerjs-plugin.php"
+  C:\git\ViewerJS\build\viewerjs-wordpress-0.5.9\webodf.js
+  [C:/git/ViewerJS/build/viewerjs-wordpress-0.5.9.zip] << "viewerjs-wordpress-0.5.9\webodf.js"
+  Created C:/git/ViewerJS/build/viewerjs-wordpress-0.5.9.zip

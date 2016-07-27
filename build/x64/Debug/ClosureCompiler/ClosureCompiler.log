@@ -1,1 +1,23 @@
-﻿
+﻿  Building Custom Rule C:/git/ViewerJS/CMakeLists.txt
+  CMake does not need to re-run because C:\git\ViewerJS\build\CMakeFiles\generate.stamp is up-to-date.
+  Creating directories for 'ClosureCompiler'
+  Performing download step (download, verify and extract) for 'ClosureCompiler'
+  -- verifying file...
+         file='C:/git/ViewerJS/build/downloads/compiler-20130823.tar.gz'
+  -- File already exists and hash match (skip download):
+    file='C:/git/ViewerJS/build/downloads/compiler-20130823.tar.gz'
+    MD5='105db24c4676e23f2495adfdea3159bc'
+  -- extracting...
+       src='C:/git/ViewerJS/build/downloads/compiler-20130823.tar.gz'
+       dst='C:/git/ViewerJS/build/ClosureCompiler-prefix/src/ClosureCompiler'
+  -- extracting... [tar xfz]
+  -- extracting... [analysis]
+  -- extracting... [rename]
+  -- extracting... [clean up]
+  -- extracting... done
+  No update step for 'ClosureCompiler'
+  No patch step for 'ClosureCompiler'
+  No configure step for 'ClosureCompiler'
+  No build step for 'ClosureCompiler'
+  No install step for 'ClosureCompiler'
+  Completed 'ClosureCompiler'

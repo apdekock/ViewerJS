@@ -1,1 +1,6 @@
-﻿
+﻿  Building Custom Rule C:/git/ViewerJS/CMakeLists.txt
+  CMake does not need to re-run because C:\git\ViewerJS\build\CMakeFiles\generate.stamp is up-to-date.
+  Generating index.html
+  filtering [C:/git/ViewerJS/index-template.html] to [C:/git/ViewerJS/build/index.html]
+  replacing [@VIEWERJSLICENSE_START@-@VIEWERJSLICENSE_END@] with contents of [C:/git/ViewerJS/HeaderCompiled.html].
+  replacing [@VIEWERJS_START@-@VIEWERJS_END@] with contents of [C:/git/ViewerJS/build/viewer.min.js].
